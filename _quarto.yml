@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "PhEpiGit" 
+  #site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
+  #repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -15,17 +15,17 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: logo.png
     favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://www.klinikum.uni-heidelberg.de/en/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/dept-of-clinical-pharmacology-and-pharmacoepidemiology
+        text: "UKHD"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/Pharmacoepidemiology-UKHD
+        text: "PhEpi"
 
     style: "docked"
     search: true
