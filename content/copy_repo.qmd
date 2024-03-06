@@ -3,7 +3,7 @@ title: "Copy the GitHub repository to your local machine"
 ---
 
 
-As shown in @fig-copyrepo, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the new_repository to the local machine/ R server (refer to Section 5.3).
+1. As shown in @fig-copyrepo, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the **New repository** to the local machine/ R server (refer to Section 5.3).
 
 ![Options to clone the repository.](images/copyrepo.png){#fig-copyrepo .absolute top=160px left=500px width="380"}
 
@@ -25,3 +25,4 @@ As shown in @fig-copyrepo, (A) Click the Code button to display a window with op
 :::
 
 
+2. Log-in into your R Server
