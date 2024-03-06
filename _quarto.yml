@@ -39,8 +39,8 @@ website:
         text: Becoming part of the PhEpiGit
       - href: content/new_repo.qmd
         text: New repository on PhEpiGit
-      - href: content/rendering.qmd
-        text: Rendering
+      - href: content/copy_repo.qmd
+        text: Copy the GitHub repository to your local machine
       - href: content/rmarkdown.Rmd
         text: R Markdown files
       - href: content/code.qmd

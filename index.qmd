@@ -43,4 +43,3 @@ The GitHub Action installs R so you can have R code in your qmd or Rmd files. No
 
 -->
 
-### also to check it
