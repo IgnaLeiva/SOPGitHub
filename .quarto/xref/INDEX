@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "338225df"
+  },
+  "content/rendering.qmd": {
+    "rendering.html": "508244f1"
+  },
+  "content/code.qmd": {
+    "code.html": "d56e87c1"
+  },
+  "content/customizing.qmd": {
+    "customizing.html": "baa91d81"
+  },
+  "content/add-content.qmd": {
+    "add-content.html": "de6f72f8"
+  },
+  "content/acknowledgements.qmd": {
+    "acknowledgements.html": "20c00cdf"
+  },
+  "content/rmarkdown.Rmd": {
+    "rmarkdown.html": "3d07b947"
+  },
+  "content/publishing.qmd": {
+    "publishing.html": "06633762"
+  },
+  "content/definitions.qmd": {
+    "definitions.html": "da948fab"
+  },
+  "content/become_part.qmd": {
+    "become_part.html": "bb524f97"
+  },
+  "content/new_repo.qmd": {
+    "new_repo.html": "eea80622"
+  },
+  "content/project_template.qmd": {
+    "project_template.html": "a5e1a245"
+  }
+}

@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "",
+    "text": "This is an extension of the PhEpi-1-05_Reproduzierbares Arbeiten SOP"
+  },
+  {
+    "objectID": "index.html#purposeobjective",
+    "href": "index.html#purposeobjective",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "Purpose/Objective",
+    "text": "Purpose/Objective\nIn the Pharmacoepidemiology (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a Version Control System (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.\nIn addition to these fundamental principles, platforms like GitHub serve as powerful extensions of remote VCS. GitHub is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.\nConsidering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the Pharmacoepidemiology UKHD GitHub."
+  },
+  {
+    "objectID": "index.html#scopeapplication",
+    "href": "index.html#scopeapplication",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "Scope/Application",
+    "text": "Scope/Application\nThis standard operating procedure applies to all PhEpi employees working and collaborating on a project hosted on the organisational GitHub."
+  },
+  {
+    "objectID": "content/rendering.html",
+    "href": "content/rendering.html",
+    "title": "Rendering",
+    "section": "",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+  },
+  {
+    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
+  },
+  {
+    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
+  },
+  {
+    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
+  },
+  {
+    "objectID": "content/code.html",
+    "href": "content/code.html",
+    "title": "Rendering with Code",
+    "section": "",
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+  },
+  {
+    "objectID": "content/code.html#modify-the-github-action",
+    "href": "content/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+  },
+  {
+    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+  },
+  {
+    "objectID": "content/customizing.html",
+    "href": "content/customizing.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#quarto-documentation",
+    "href": "content/customizing.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#examples",
+    "href": "content/customizing.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
+  },
+  {
+    "objectID": "content/add-content.html",
+    "href": "content/add-content.html",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/add-content.html#edit-and-add-your-pages",
+    "href": "content/add-content.html#edit-and-add-your-pages",
+    "title": "Customize",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/add-content.html#add-your-pages-the-project",
+    "href": "content/add-content.html#add-your-pages-the-project",
+    "title": "Customize",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
+    "section": "",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
+  },
+  {
+    "objectID": "content/rmarkdown.html",
+    "href": "content/rmarkdown.html",
+    "title": "R Markdown",
+    "section": "",
+    "text": "You can include R Markdown files in your project."
+  },
+  {
+    "objectID": "content/rmarkdown.html#r-markdown",
+    "href": "content/rmarkdown.html#r-markdown",
+    "title": "R Markdown",
+    "section": "R Markdown",
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "content/rmarkdown.html#including-plots",
+    "href": "content/rmarkdown.html#including-plots",
+    "title": "R Markdown",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "content/publishing.html",
+    "href": "content/publishing.html",
+    "title": "Publishing",
+    "section": "",
+    "text": "To get your Quarto webpage to show up with the url\nyou have a few steps."
+  },
+  {
+    "objectID": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "href": "content/publishing.html#turn-on-github-pages-for-your-repo",
+    "title": "Publishing",
+    "section": "Turn on GitHub Pages for your repo",
+    "text": "Turn on GitHub Pages for your repo\n\nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and the root directory.\nTurn on GitHub Actions under Settings &gt; Actions &gt; General\n\nThe GitHub Action will automatically recreate your website when you push to GitHub after you do the initial gh-pages set-up"
+  },
+  {
+    "objectID": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "href": "content/publishing.html#do-your-first-publish-to-gh-pages",
+    "title": "Publishing",
+    "section": "Do your first publish to gh-pages",
+    "text": "Do your first publish to gh-pages\nThe first time you publish to gh-pages, you need to do so locally.\n\nOn your local computer, open a terminal window and cd to your repo directory. Here is what that cd command looks like for me. You command will look different because your local repo will be somewhere else on your computer.\n\ncd ~/Documents/GitHub/NOAA-quarto-simple\n\nPublish to the gh-pages. In the terminal type\n\nquarto publish gh-pages\nThis is going to render your webpage and then push the _site contents to the gh-pages branch."
+  },
+  {
+    "objectID": "content/publishing.html#dont-like-using-gh-pages",
+    "href": "content/publishing.html#dont-like-using-gh-pages",
+    "title": "Publishing",
+    "section": "Don’t like using gh-pages?",
+    "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
+  },
+  {
+    "objectID": "content/definitions.html",
+    "href": "content/definitions.html",
+    "title": "Terms, definitions and abbreviation",
+    "section": "",
+    "text": "Term\nDefinition\n\n\n\n\nCollaboration\nShared project or technical/expertise support provided to other researchers.\n\n\nCommit\nInvolves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.\n\n\nGitHub\nA web-based interface that uses Git for version control\n\n\nPhEpi\nPharmacoepidemiology unit\n\n\nPhEpiGit\nPharmacoepidemiology unit GitHub\n\n\nRepository\nCentralized storage space that holds a project’s files and their complete history (track changes)\n\n\nR projects\nStructured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a “.Rproj” configuration file, and isolated settings.\n\n\nSOP\nStandard operating procedure\n\n\nPushing\nRefers to sending committed (saved) changes from your local repository to a remote repository (GitHub).\n\n\nVCS\nVersion Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code."
+  },
+  {
+    "objectID": "content/definitions.html#terms-definitions-and-abbreviation",
+    "href": "content/definitions.html#terms-definitions-and-abbreviation",
+    "title": "definitios",
+    "section": "",
+    "text": "Term\nDefinition\n\n\n\n\nCollaboration\nShared project or technical/expertise support provided to other researchers.\n\n\nCommit\nInvolves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.\n\n\nGitHub\nA web-based interface that uses Git for version control\n\n\nPhEpi\nPharmacoepidemiology unit\n\n\nPhEpiGit\nPharmacoepidemiology unit GitHub\n\n\nRepository\nCentralized storage space that holds a project’s files and their complete history (track changes)\n\n\nR projects\nStructured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a “.Rproj” configuration file, and isolated settings.\n\n\nSOP\nStandard operating procedure\n\n\nPushing\nRefers to sending committed (saved) changes from your local repository to a remote repository (GitHub).\n\n\nVCS\nVersion Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code."
+  },
+  {
+    "objectID": "index.html#responsibility",
+    "href": "index.html#responsibility",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "4. Responsibility",
+    "text": "4. Responsibility\nEach repository should be organized systematically by the employee responsible for a project. This employee is also responsible for accepting collaborations on their projects. Only projects related to PhEpi are eligible for hosting on the PhEpiGit."
+  },
+  {
+    "objectID": "content/become_part.html",
+    "href": "content/become_part.html",
+    "title": "Becoming part of the PhEpiGit",
+    "section": "",
+    "text": "Figure 1 illustrates the process from configuring Git to becoming a member of PhEpiGit. Begin by configuring Git on the local machine/R server using the UKHD email as the user email. If a GitHub account is not already set up, create one, including the UKHD email in the account settings to match Git’s user email. Next, send an email to the PhEpiGit owner requesting an invitation, and be sure to include the GitHub username. Upon receiving the email, the owner sends an invitation granting membership to PhEpiGit.”.\n\n\n\nFigure 1: Workflow diagram depicting the process from configuring Git to becoming a member of PhEpiGit.\n\n\n\nConfiguration on the local machine can be done by using the following code in a terminal (e.g., RStudio terminal)\n\n\n# global configuration of name and email address\ngit config --global user.name \"First Last\"\ngit config --global user.email \"name.surname@med.uni-heidelberg.de\""
+  },
+  {
+    "objectID": "content/new_repo.html",
+    "href": "content/new_repo.html",
+    "title": "Creating a new repository on PhEpiGit",
+    "section": "",
+    "text": "A new repository can be initiated using the command line, RStudio, or GitHub. However, this document will specifically describe the process using GitHub, as it facilitates compliance with the reproducible research SOP.\nOnce employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.\nPhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.\n\nGo to the upper-right corner of the PhEpiGit and select +, among the options select New repository\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\n\nSelect the Pharmacoepidemiology-UHHD/project_template (see xxx) to create the new repository (A). This automatically will select the PhEpi as owner. Name the repository (B) and choose a repository visibility (C). Additionally you can add a description. Lastly, click Create repositry\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\n\nA\n\n\n\n\nB\n\n\n\n\nC\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools such as RStudio. This SOP emphasizes utilizing RStudio as a central element for effective GitHub repository management.\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten"
+  }
+]
