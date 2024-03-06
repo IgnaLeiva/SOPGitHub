@@ -4,30 +4,21 @@
     "href": "content/customizing.html",
     "title": "Customization",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "Customizing"
-    ]
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
   },
   {
     "objectID": "content/customizing.html#quarto-documentation",
     "href": "content/customizing.html#quarto-documentation",
     "title": "Customization",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "Customizing"
-    ]
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
   },
   {
     "objectID": "content/customizing.html#examples",
     "href": "content/customizing.html#examples",
     "title": "Customization",
     "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
-    "crumbs": [
-      "Customizing"
-    ]
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
   },
   {
     "objectID": "content/rendering.html",
@@ -100,6 +91,66 @@
     ]
   },
   {
+    "objectID": "content/new_repo.html",
+    "href": "content/new_repo.html",
+    "title": "Creating a new repository on PhEpiGit",
+    "section": "",
+    "text": "A new repository can be initiated using the command line, RStudio, or GitHub. However, this document will specifically describe the process using GitHub, as it facilitates compliance with the reproducible research SOP.\nOnce employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.\nPhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.\n\nGo to the upper-right corner of the PhEpiGit and select +, among the options select New repository\n\n\n\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\n\n\nSelect the Pharmacoepidemiology-UHHD/project_template (see xxx) to create the new repository (A). This automatically will select the PhEpi as owner. Name the repository (B) and choose a repository visibility (C). Additionally you can add a description. Lastly, click Create repositry\n\n\n\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\n\n\nA\n\n\n\n\nB\n\n\n\n\nC\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools such as RStudio. This SOP emphasizes utilizing RStudio as a central element for effective GitHub repository management.\n\n\n\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten",
+    "crumbs": [
+      "New repository on PhEpiGit"
+    ]
+  },
+  {
+    "objectID": "content/definitions.html",
+    "href": "content/definitions.html",
+    "title": "Terms, definitions and abbreviation",
+    "section": "",
+    "text": "Term\nDefinition\n\n\n\n\nCollaboration\nShared project or technical/expertise support provided to other researchers.\n\n\nCommit\nInvolves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.\n\n\nGitHub\nA web-based interface that uses Git for version control\n\n\nPhEpi\nPharmacoepidemiology unit\n\n\nPhEpiGit\nPharmacoepidemiology unit GitHub\n\n\nRepository\nCentralized storage space that holds a project’s files and their complete history (track changes)\n\n\nR projects\nStructured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a “.Rproj” configuration file, and isolated settings.\n\n\nSOP\nStandard operating procedure\n\n\nPushing\nRefers to sending committed (saved) changes from your local repository to a remote repository (GitHub).\n\n\nVCS\nVersion Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code.",
+    "crumbs": [
+      "Terms, definitions and abbreviation"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "",
+    "text": "This is an extension of the PhEpi-1-05_Reproduzierbares Arbeiten SOP",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#purposeobjective",
+    "href": "index.html#purposeobjective",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "Purpose/Objective",
+    "text": "Purpose/Objective\nIn the Pharmacoepidemiology (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a Version Control System (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.\nIn addition to these fundamental principles, platforms like GitHub serve as powerful extensions of remote VCS. GitHub is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.\nConsidering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the Pharmacoepidemiology UKHD GitHub.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#scopeapplication",
+    "href": "index.html#scopeapplication",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "Scope/Application",
+    "text": "Scope/Application\nThis standard operating procedure applies to all PhEpi employees working and collaborating on a project hosted on the organisational GitHub.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#responsibility",
+    "href": "index.html#responsibility",
+    "title": "Pharmacoepidemiology GitHub",
+    "section": "4. Responsibility",
+    "text": "4. Responsibility\nEach repository should be organized systematically by the employee responsible for a project. This employee is also responsible for accepting collaborations on their projects. Only projects related to PhEpi are eligible for hosting on the PhEpiGit.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "content/code.html",
     "href": "content/code.html",
     "title": "Rendering with Code",
@@ -127,36 +178,6 @@
     "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages",
     "crumbs": [
       "Code in your files"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Pharmacoepidemiology GitHub",
-    "section": "",
-    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#github-set-up",
-    "href": "index.html#github-set-up",
-    "title": "Pharmacoepidemiology GitHub",
-    "section": "GitHub Set-up",
-    "text": "GitHub Set-up\n\nClick the green “use template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nTurn on GitHub Actions under Settings &gt; Actions &gt; General \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#another-stuff",
-    "href": "index.html#another-stuff",
-    "title": "Pharmacoepidemiology GitHub",
-    "section": "Another stuff",
-    "text": "Another stuff",
-    "crumbs": [
-      "Home"
     ]
   },
   {
@@ -188,34 +209,35 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
+    "objectID": "content/become_part.html",
+    "href": "content/become_part.html",
+    "title": "Becoming part of the PhEpiGit",
+    "section": "",
+    "text": "Figure 1 illustrates the process from configuring Git to becoming a member of PhEpiGit. Begin by configuring Git on the local machine/R server using the UKHD email as the user email. If a GitHub account is not already set up, create one, including the UKHD email in the account settings to match Git’s user email. Next, send an email to the PhEpiGit owner requesting an invitation, and be sure to include the GitHub username. Upon receiving the email, the owner sends an invitation granting membership to PhEpiGit.”.\n\n\n\n\n\n\nFigure 1: Workflow diagram depicting the process from configuring Git to becoming a member of PhEpiGit.\n\n\n\n\nConfiguration on the local machine can be done by using the following code in a terminal (e.g., RStudio terminal)\n\n\n# global configuration of name and email address\ngit config --global user.name \"First Last\"\ngit config --global user.email \"name.surname@med.uni-heidelberg.de\"",
+    "crumbs": [
+      "Becoming part of the PhEpiGit"
+    ]
+  },
+  {
     "objectID": "content/add-content.html",
     "href": "content/add-content.html",
     "title": "Customize",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "Add content"
-    ]
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
   },
   {
     "objectID": "content/add-content.html#edit-and-add-your-pages",
     "href": "content/add-content.html#edit-and-add-your-pages",
     "title": "Customize",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
-    "crumbs": [
-      "Add content"
-    ]
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
   },
   {
     "objectID": "content/add-content.html#add-your-pages-the-project",
     "href": "content/add-content.html#add-your-pages-the-project",
     "title": "Customize",
     "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
-    "crumbs": [
-      "Add content"
-    ]
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
     "objectID": "content/acknowledgements.html",

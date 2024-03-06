@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PhEpiGit - Customize</title>
+<title>PhEpiGit - Creating a new repository on PhEpiGit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/rendering.html" rel="next">
+<link href="../content/become_part.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -81,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Customize</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/new_repo.html">New repository on PhEpiGit</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -125,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/new_repo.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/new_repo.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">New repository on PhEpiGit</span></a>
   </div>
 </li>
@@ -171,21 +173,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#edit-and-add-your-pages" id="toc-edit-and-add-your-pages" class="nav-link active" data-scroll-target="#edit-and-add-your-pages">Edit and add your pages</a></li>
-  <li><a href="#add-your-pages-the-project" id="toc-add-your-pages-the-project" class="nav-link" data-scroll-target="#add-your-pages-the-project">Add your pages the project</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/edit/main/content/add-content.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/blob/main/content/add-content.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Customize</h1>
+<h1 class="title">Creating a new repository on PhEpiGit</h1>
 </div>
 
 
@@ -202,27 +197,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="edit-and-add-your-pages" class="level2">
-<h2 class="anchored" data-anchor-id="edit-and-add-your-pages">Edit and add your pages</h2>
-<p>Edit the qmd or md files in the <code>content</code> folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).</p>
-<p>Each page should start with</p>
-<pre><code>---
-title: your title
----</code></pre>
-<p>and the first header will be the 2nd level, so <code>##</code>. Note, there are situations where you leave off</p>
-<pre><code>---
-title: your title
----</code></pre>
-<p>and start the qmd file with a level header <code>#</code>, but if using the default title yaml (in the <code>---</code> fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).</p>
-</section>
-<section id="add-your-pages-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="add-your-pages-the-project">Add your pages the project</h2>
-<ul>
-<li>Add the files to <code>_quarto.yml</code></li>
-</ul>
+<p>A new repository can be initiated using the command line, RStudio, or GitHub. However, this document will specifically describe the process using GitHub, as it facilitates compliance with the reproducible research SOP.</p>
+<p>Once employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.</p>
+<p>PhEpiGit provides a <strong>project_template</strong> repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.</p>
+<ol type="1">
+<li>Go to the upper-right corner of the PhEpiGit and select +, among the options select <strong>New repository</strong></li>
+</ol>
+<div id="fig-newrepo" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-newrepo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/newrepo.png" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-newrepo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Create a new repository
+</figcaption>
+</figure>
+</div>
+<!-- this is the rectangle -->
+<div style="position: absolute; left: 490px; top: 395px; height: 35px; width: 245px; border:2px solid #004a6f; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+
+</div>
+<ol start="2" type="1">
+<li>Select the <strong>Pharmacoepidemiology-UHHD/project_template</strong> (see xxx) to create the new repository (A). This automatically will select the PhEpi as owner. Name the repository (B) and choose a repository visibility (C). Additionally you can add a description. Lastly, click <strong>Create repositry</strong></li>
+</ol>
+<div id="fig-newrepo2" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-newrepo2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/newrepo2.png" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="700">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-newrepo2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Create a new repository window
+</figcaption>
+</figure>
+</div>
+<!-- this is the circle -->
+<div style="position: absolute; left: 365px; top: 945px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircle">
+A
+</div>
+</div>
+<div style="position: absolute; left: 365px; top: 1190px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircle">
+B
+</div>
+</div>
+<div style="position: absolute; left: 365px; top: 1280px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircle">
+C
+</div>
+</div>
+<p><a href="#fig-newrepo3" class="quarto-xref">Figure&nbsp;3</a> shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools such as RStudio. This SOP emphasizes utilizing RStudio as a central element for effective GitHub repository management.</p>
+<div id="fig-newrepo3" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-newrepo3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/newrepo3.png" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="500">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-newrepo3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten
+</figcaption>
+</figure>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -778,6 +814,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/become_part.html" class="pagination-link" aria-label="Becoming part of the PhEpiGit">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Becoming part of the PhEpiGit</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/rendering.html" class="pagination-link" aria-label="Rendering">
+        <span class="nav-page-text">Rendering</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -786,7 +834,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/edit/main/content/add-content.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/blob/main/content/add-content.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/edit/main/content/new_repo.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/blob/main/content/new_repo.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://pharmacoepidemiology-ukhd.github.io/SOPGitHub/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
