@@ -143,7 +143,7 @@
     "href": "content/copy_repo.html",
     "title": "Copy the GitHub repository to your local machine",
     "section": "",
-    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the new_repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nA\n\n\n\n\n\n\n\nB",
+    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nA\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\nLog-in into your R Server",
     "crumbs": [
       "Copy the GitHub repository to your local machine"
     ]
