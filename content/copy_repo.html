@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -200,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>As shown in <a href="#fig-copyrepo" class="quarto-xref">Figure&nbsp;1</a>, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the <strong>New repository</strong> to the local machine/ R server (refer to Section 5.3).</li>
 </ol>
-<div id="fig-copyrepo" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-left="500px" data-top="160px">
+<div id="fig-copyrepo" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160px" data-left="500px">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-copyrepo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/copyrepo.png" class="absolute img-fluid figure-img" data-top="160px" data-left="500px" width="380">
@@ -227,8 +256,34 @@ B
 
 </div>
 <ol start="2" type="1">
-<li>Log-in into your R Server</li>
+<li>Log-in into your R Server and access the RStudio menu bar, choose <strong>File <span class="math inline">\(\rightarrow\)</span> New Project <span class="math inline">\(\rightarrow\)</span> Version Control <span class="math inline">\(\rightarrow\)</span> Git</strong>. This displays the window depicted in <a href="#fig-rstudiogit" class="quarto-xref">Figure&nbsp;2</a>. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.</li>
 </ol>
+<div id="fig-rstudiogit" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160px" data-left="500px">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rstudiogit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/rstudiogit.png" class="absolute img-fluid figure-img" data-top="160px" data-left="500px" width="380">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rstudiogit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Git window to clone the GitHub repository.
+</figcaption>
+</figure>
+</div>
+<div style="position: absolute; left: 600px; top: 705px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircleSmall">
+A
+</div>
+</div>
+<div style="position: absolute; left: 600px; top: 745px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircleSmall">
+B
+</div>
+</div>
+<div style="position: absolute; left: 600px; top: 780px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;">
+<div class="numberCircleSmall">
+C
+</div>
+</div>
+<p>After clicking the <strong>Create Project</strong> (<a href="#fig-rstudiogit" class="quarto-xref">Figure&nbsp;2</a>), a window pops up (Figure 7) requesting the (a) GitHub username and (b) password. However, it needs to provide a Token instead of the password</p>
 
 
 

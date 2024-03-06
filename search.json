@@ -143,7 +143,7 @@
     "href": "content/copy_repo.html",
     "title": "Copy the GitHub repository to your local machine",
     "section": "",
-    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nA\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\nLog-in into your R Server",
+    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nA\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 2. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\n\nA\n\n\n\n\nB\n\n\n\n\nC\n\n\nAfter clicking the Create Project (Figure 2), a window pops up (Figure 7) requesting the (a) GitHub username and (b) password. However, it needs to provide a Token instead of the password",
     "crumbs": [
       "Copy the GitHub repository to your local machine"
     ]
