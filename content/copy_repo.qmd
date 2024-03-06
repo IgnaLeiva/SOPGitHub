@@ -25,4 +25,25 @@ title: "Copy the GitHub repository to your local machine"
 :::
 
 
-2. Log-in into your R Server
+2. Log-in into your R Server and access the RStudio menu bar, choose **File $\rightarrow$ New Project $\rightarrow$ Version Control $\rightarrow$ Git**. This displays the window depicted in @fig-rstudiogit. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.
+
+
+![Git window to clone the GitHub repository.](images/rstudiogit.png){#fig-rstudiogit .absolute top=160px left=500px width="380"}
+
+:::{style="position: absolute; left: 600px; top: 705px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircleSmall">A</div>
+:::
+
+:::{style="position: absolute; left: 600px; top: 745px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircleSmall">B</div>
+:::
+
+:::{style="position: absolute; left: 600px; top: 780px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircleSmall">C</div>
+:::
+
+
+
+
+After clicking the **Create Project** (@fig-rstudiogit), a window pops up (Figure 7) requesting the (a) GitHub username and (b) password. However, it needs to provide a Token instead of the password
+
