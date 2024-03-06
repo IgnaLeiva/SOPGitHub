@@ -14,9 +14,11 @@ website:
     left: "&copy; CC-1.0"
   
   sidebar:
-    background: "#D9E3E4"
+    background: "white"
+    #background: "#143D59"
+    #logo: logo.svg
     logo: logo.png
-    favicon: images/favicon.ico
+    #favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
@@ -33,16 +35,20 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
+      - href: content/become_part.qmd
+        text: Becoming part of the PhEpiGit
+      - href: content/new_repo.qmd
+        text: New repository on PhEpiGit
       - href: content/rendering.qmd
         text: Rendering
       - href: content/rmarkdown.Rmd
         text: R Markdown files
       - href: content/code.qmd
         text: Code in your files
+      - href: content/definitions.qmd
+        text: Terms, definitions and abbreviation
+      - href: content/project_template.qmd
+        text: Project template
       - href: content/acknowledgements.qmd
         text: Acknowledgements
 

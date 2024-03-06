@@ -1,0 +1,17 @@
+---
+title: "Terms, definitions and abbreviation"
+---
+
+
+| Term          | Definition |
+|----------------|------------------|
+| Collaboration	| Shared project or technical/expertise support provided to other researchers.|
+|Commit	|Involves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.|
+|GitHub	|A web-based interface that uses Git for version control|
+|PhEpi	|Pharmacoepidemiology unit |
+|PhEpiGit	|Pharmacoepidemiology unit GitHub|
+|Repository	|Centralized storage space that holds a project's files and their complete history (track changes)|
+|R projects	|Structured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a ".Rproj" configuration file, and isolated settings.|
+|SOP|	Standard operating procedure|
+|Pushing	|Refers to sending committed (saved) changes from your local repository to a remote repository (GitHub).|
+|VCS|	Version Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code.|
