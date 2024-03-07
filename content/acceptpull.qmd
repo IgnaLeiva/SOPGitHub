@@ -1,0 +1,15 @@
+---
+title: "Checking and accepting a pull request"
+---
+
+The action of reviewing and accepting pull requests needs to be performed by the repository owner. Any (A) pull request can be viewed in the repository tabs, as illustrated in @fig-pullchecking. Once in the Pull request section, a list of requests is displayed, and various actions can be taken. Access a specific request by clicking on (B) the pull request name
+
+![Checking a pull request on GitHub.](images/pullchecking.svg){#fig-pullchecking .absolute top=160 left=380 width="600"}
+
+@fig-descriptionpulling shows an open pull request. This provides (A) information on the commit content and (B) request description. The owner and contributor can message around if clarifications are needed using (C) Add a comment section prior to (d) merge. 
+After the pull request has been accepted and merged, the pull request status will change from Open to Merged. Additionally, the branch can be deleted if it is no longer needed.
+
+
+![Description of an open pulling request.](images/descriptionpulling.svg){#fig-descriptionpulling .absolute top=160 left=380 width="600"}
+
+ 

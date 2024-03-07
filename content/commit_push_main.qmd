@@ -1,0 +1,26 @@
+---
+title: "Commit and push your work – origin/main branch"
+---
+
+## Commit
+
+Committing saves all your new work or changes made to a local repository. @fig-gitwindow shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).
+
+__Note:__ _Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch_
+
+![Git windows showing added or modified files.](images/gitwindow.svg){#fig-gitwindow .absolute top=160 left=380 width="600"}
+
+The review window (@fig-messagecommit) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click **Commit** to complete the process.
+
+
+![Review window.](images/messagecommit.svg){#fig-messagecommit .absolute top=160 left=380 width="600"}
+
+After clicking the **Commit** (@fig-messagecommit), a window pops up indicating the state of the commit. @fig-gitcommit provides a summary of the changes made in the commit process. 
+
+![Git Commit window describing the commit changes.](images/gitcommit.svg){#fig-gitcommit .absolute top=160px left=500px width=900px}
+
+## Push
+
+@fig-gittab describes the process to (A) push from the Git tab where a (B) message indicates that the local repository is ahead of the remote one (GitHub). Note that this is the main/origin branch. (C) Initiate the push and provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.
+
+![Git tab on RStudio ready to push data to the main/origin branch.](images/gittab.svg){#fig-gittab .absolute top=160 left=380 width="600"}

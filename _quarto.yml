@@ -41,16 +41,18 @@ website:
         text: New repository on PhEpiGit
       - href: content/copy_repo.qmd
         text: Copy the GitHub repository to your local machine
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
+      - href: content/commit_push_main.qmd
+        text: Commit and push your work – origin/main branch
+      - href: content/clon_git.qmd
+        text: Cloning an existing repository from GitHub
+      - href: content/newbranchcommit.qmd
+        text: Commit and push– new branch
+      - href: content/acceptpull.qmd
+        text: Checking and accepting a pull request
       - href: content/definitions.qmd
         text: Terms, definitions and abbreviation
       - href: content/project_template.qmd
         text: Project template
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
 
 format:
   html:

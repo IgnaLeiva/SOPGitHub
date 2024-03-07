@@ -10,7 +10,7 @@ PhEpiGit provides a **project_template** repository that should be used each tim
 
 1. Go to the upper-right corner of the PhEpiGit and select +, among the options select **New repository**
 
-![Create a new repository](images/newrepo.svg){#fig-newrepo .absolute top=160 left=380 width="700"}
+![Create a new repository](images/newrepo.svg){#fig-newrepo .absolute top=160 left=380 width="600"}
 
 <!-- this is the rectangle 
 
@@ -24,7 +24,7 @@ PhEpiGit provides a **project_template** repository that should be used each tim
 
 
 
-![Create a new repository window](images/newrepo2.svg){#fig-newrepo2 .absolute top=160 left=380 width="700"}
+![Create a new repository window](images/newrepo2.svg){#fig-newrepo2 .absolute top=160 left=380 width="600"}
 
 <!-- this is the circle 
 
