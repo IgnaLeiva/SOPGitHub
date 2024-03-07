@@ -50,6 +50,36 @@
     ]
   },
   {
+    "objectID": "content/commit_push_main.html",
+    "href": "content/commit_push_main.html",
+    "title": "Commit and push your work – origin/main branch",
+    "section": "",
+    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).\nNote: Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking the Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
+    "crumbs": [
+      "Commit and push your work – origin/main branch"
+    ]
+  },
+  {
+    "objectID": "content/commit_push_main.html#commit",
+    "href": "content/commit_push_main.html#commit",
+    "title": "Commit and push your work – origin/main branch",
+    "section": "",
+    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).\nNote: Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking the Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
+    "crumbs": [
+      "Commit and push your work – origin/main branch"
+    ]
+  },
+  {
+    "objectID": "content/commit_push_main.html#push",
+    "href": "content/commit_push_main.html#push",
+    "title": "Commit and push your work – origin/main branch",
+    "section": "Push",
+    "text": "Push\nFigure 4 describes the process to (A) push from the Git tab where a (B) message indicates that the local repository is ahead of the remote one (GitHub). Note that this is the main/origin branch. (C) Initiate the push and provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.\n\n\n\n\n\n\nFigure 4: Git tab on RStudio ready to push data to the main/origin branch.",
+    "crumbs": [
+      "Commit and push your work – origin/main branch"
+    ]
+  },
+  {
     "objectID": "content/rendering.html",
     "href": "content/rendering.html",
     "title": "Rendering",
@@ -82,30 +112,21 @@
     "href": "content/code.html",
     "title": "Rendering with Code",
     "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326",
-    "crumbs": [
-      "Code in your files"
-    ]
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
   },
   {
     "objectID": "content/code.html#modify-the-github-action",
     "href": "content/code.html#modify-the-github-action",
     "title": "Rendering with Code",
     "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it.",
-    "crumbs": [
-      "Code in your files"
-    ]
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
   },
   {
     "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
     "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
     "title": "Rendering with Code",
     "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages",
-    "crumbs": [
-      "Code in your files"
-    ]
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
   },
   {
     "objectID": "content/become_part.html",
@@ -118,34 +139,13 @@
     ]
   },
   {
-    "objectID": "content/customizing.html",
-    "href": "content/customizing.html",
-    "title": "Customization",
+    "objectID": "content/newbranchcommit.html",
+    "href": "content/newbranchcommit.html",
+    "title": "Commit and push– new branch",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
-  },
-  {
-    "objectID": "content/customizing.html#quarto-documentation",
-    "href": "content/customizing.html#quarto-documentation",
-    "title": "Customization",
-    "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
-  },
-  {
-    "objectID": "content/customizing.html#examples",
-    "href": "content/customizing.html#examples",
-    "title": "Customization",
-    "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
-  },
-  {
-    "objectID": "content/copy_repo.html",
-    "href": "content/copy_repo.html",
-    "title": "Copy the GitHub repository to your local machine",
-    "section": "",
-    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nA\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 2. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\n\nA\n\n\n\n\nB\n\n\n\n\nC\n\n\nAfter clicking the Create Project (Figure 2), a window pops up (Figure 7) requesting the (a) GitHub username and (b) password. However, it needs to provide a Token instead of the password",
+    "text": "Follow the instructions in section 5.4 to commit and push a piece of work to/from a new (side) branch of an existing repository/project. The additional step is to open a pull request on PhEpiGit. A pull request enables to communicate to others, especially the repository owner, which files/code/data are ready to be merged from a side branch to the main/origin branch. A pull request can be opened after pushing a piece of work to a side branch. Once the work has been pushed, go to PhEpiGit and locate the repository being collaborated on. Click main to switch to the member branch (Figure 1).\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch, as shown in Figure 2, click (A) the Contribute button to (B) Open a pull request. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
     "crumbs": [
-      "Copy the GitHub repository to your local machine"
+      "Commit and push– new branch"
     ]
   },
   {
@@ -177,44 +177,73 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
+    "objectID": "content/clon_git.html",
+    "href": "content/clon_git.html",
+    "title": "Cloning an existing repository from GitHub",
+    "section": "",
+    "text": "Cloning an existing repository is a vital process for collaboration among PhEpiGit members. To collaborate, individuals need to visit the specific PhEpiGit repository and follow the instructions provided from Section 5.2, Step 3, to Section 5.3. External collaborators from PhEpi can also be invited using the Collaborators and Teams option on the GitHub repository settings. Collaborator must create their own branch before commencing work. A new branch can be created by on Git tab (Figure 1 Panel A. a) and clicking the New Branch (Figure 1 Panel A. b). A window appears where the employee’s UKHD name abbreviation (Kürzel) (e.g., New employee: NEmp) must be assigned to the branch name. Ensure Sync branch with remote is checked to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (Figure 1).\n\n\n\n\n\n\nFigure 1: Git tab on RStudio showing the change of branch.",
+    "crumbs": [
+      "Cloning an existing repository from GitHub"
+    ]
+  },
+  {
+    "objectID": "content/copy_repo.html",
+    "href": "content/copy_repo.html",
+    "title": "Copy the GitHub repository to your local machine",
+    "section": "",
+    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 4. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\nAfter clicking the Create Project (Figure 4), a window pops up (Figure 3) requesting the (A) GitHub username and (B) password. However, it needs to provide a Token instead of the password\n\n\n\n\n\n\nFigure 3: Git credential windows to clone the GitHub repository.\n\n\n\nFigure 4 illustrates the appearance of the cloned local repository. Note that this process generates a local .Rproj file (A). Importantly, this .Rproj file must be added to the new repository on GitHub. See the next sections for detailed guidance.\n\n\n\n\n\n\nFigure 4: Files tab in RStudio displays the repository files along with the essential .Rproj file (R project).",
+    "crumbs": [
+      "Copy the GitHub repository to your local machine"
+    ]
+  },
+  {
+    "objectID": "content/customizing.html",
+    "href": "content/customizing.html",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#quarto-documentation",
+    "href": "content/customizing.html#quarto-documentation",
+    "title": "Customization",
+    "section": "",
+    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation."
+  },
+  {
+    "objectID": "content/customizing.html#examples",
+    "href": "content/customizing.html#examples",
+    "title": "Customization",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
+  },
+  {
     "objectID": "content/rmarkdown.html",
     "href": "content/rmarkdown.html",
     "title": "R Markdown",
     "section": "",
-    "text": "You can include R Markdown files in your project.",
-    "crumbs": [
-      "R Markdown files"
-    ]
+    "text": "You can include R Markdown files in your project."
   },
   {
     "objectID": "content/rmarkdown.html#r-markdown",
     "href": "content/rmarkdown.html#r-markdown",
     "title": "R Markdown",
     "section": "R Markdown",
-    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00",
-    "crumbs": [
-      "R Markdown files"
-    ]
+    "text": "R Markdown\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
   },
   {
     "objectID": "content/rmarkdown.html#including-plots",
     "href": "content/rmarkdown.html#including-plots",
     "title": "R Markdown",
     "section": "Including Plots",
-    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot.",
-    "crumbs": [
-      "R Markdown files"
-    ]
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
   },
   {
     "objectID": "content/acknowledgements.html",
     "href": "content/acknowledgements.html",
     "title": "Acknowledgments",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland.",
-    "crumbs": [
-      "Acknowledgements"
-    ]
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
   },
   {
     "objectID": "content/add-content.html",
@@ -245,6 +274,16 @@
     "text": "here its is the project. hope this works",
     "crumbs": [
       "Project template"
+    ]
+  },
+  {
+    "objectID": "content/acceptpull.html",
+    "href": "content/acceptpull.html",
+    "title": "Checking and accepting a pull request",
+    "section": "",
+    "text": "The action of reviewing and accepting pull requests needs to be performed by the repository owner. Any (A) pull request can be viewed in the repository tabs, as illustrated in Figure 1. Once in the Pull request section, a list of requests is displayed, and various actions can be taken. Access a specific request by clicking on (B) the pull request name\n\n\n\n\n\n\nFigure 1: Checking a pull request on GitHub.\n\n\n\nFigure 2 shows an open pull request. This provides (A) information on the commit content and (B) request description. The owner and contributor can message around if clarifications are needed using (C) Add a comment section prior to (d) merge. After the pull request has been accepted and merged, the pull request status will change from Open to Merged. Additionally, the branch can be deleted if it is no longer needed.\n\n\n\n\n\n\nFigure 2: Description of an open pulling request.",
+    "crumbs": [
+      "Checking and accepting a pull request"
     ]
   },
   {
