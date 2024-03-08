@@ -2,7 +2,7 @@
 title: "Becoming part of the PhEpiGit"
 ---
 
-@fig-flow illustrates the process from configuring Git to becoming a member of PhEpiGit. Begin by configuring Git on the local machine/R server using the UKHD email as the user email. If a GitHub account is not already set up, create one, including the UKHD email in the account settings to match Git's user email. Next, send an email to the PhEpiGit owner requesting an invitation, and be sure to include the GitHub username. Upon receiving the email, the owner sends an invitation granting membership to PhEpiGit.".
+@fig-flow illustrates the process from configuring Git to becoming a member of PhEpiGit. Begin by configuring Git on the local machine/R server using the UKHD email as the user email. If a GitHub account is not already set up, create one, including the UKHD email in the account settings to match Git's user email. Next, send an email to the PhEpiGit owner requesting an invitation, and be sure to include the GitHub username. Upon receiving the email, the owner sends an invitation granting membership to PhEpiGit.
 
 
 

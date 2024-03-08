@@ -6,9 +6,9 @@ A new repository can be initiated using the command line, RStudio, or GitHub. Ho
 
 Once employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.
 
-PhEpiGit provides a **project_template** repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.
+PhEpiGit provides a **project_template** repository that should be used each time a member creates a new repository. This template includes all the folders indicated in _PhEpi-1-05_Reproduzierbares Arbeiten._
 
-1. Go to the upper-right corner of the PhEpiGit and select +, among the options select **New repository**
+1. Go to the upper-right corner of the PhEpiGit and select +, then select **New repository**
 
 ![Create a new repository](images/newrepo.svg){#fig-newrepo .absolute top=160 left=380 width="600"}
 
@@ -19,8 +19,18 @@ PhEpiGit provides a **project_template** repository that should be used each tim
 
 -->
 
+<!-- 
 
-2. Select the **Pharmacoepidemiology-UHHD/project_template** (see xxx) to create the new repository (A). This automatically will select the PhEpi as owner. Name the repository (B) and choose a repository visibility (C). Additionally you can add a description. Lastly, click **Create repositry**
+[[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}
+
+-->
+
+
+
+
+2. Select the [**Pharmacoepidemiology-UKHD/project_template** ](project_template.qmd) to create the new repository [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. This automatically will select the PhEpi as owner. Name the repository [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} and choose a repository visibility [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Additionally you can add a description. Lastly, click **Create repositry**
+
+
 
 
 

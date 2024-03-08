@@ -10,17 +10,17 @@ This is an extension of the _PhEpi-1-05_Reproduzierbares Arbeiten SOP_
 ## Purpose/Objective
 
 
-In the Pharmacoepidemiology (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a Version Control System (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.
+In the [Pharmacoepidemiology]{style="color: #2E6B96; font-weight: bold; background-color: #2E6B96; border-radius: 50%;"} (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a _Version Control System_ (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.
 
-In addition to these fundamental principles, platforms like GitHub serve as powerful extensions of remote VCS. GitHub is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.
+In addition to these fundamental principles, platforms like [GitHub](https://github.com) serve as powerful extensions of remote VCS. _GitHub_ is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.
 
-Considering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the Pharmacoepidemiology UKHD GitHub.
+Considering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the _Pharmacoepidemiology GitHub_ (PhEpiGit).
 
 ## Scope/Application
 
 This standard operating procedure applies to all PhEpi employees working and collaborating on a project hosted on the organisational GitHub.
 
-## 4.	Responsibility
+## Responsibility
 
 Each repository should be organized systematically by the employee responsible for a project. This employee is also responsible for accepting collaborations on their projects. Only projects related to PhEpi are eligible for hosting on the PhEpiGit.
 

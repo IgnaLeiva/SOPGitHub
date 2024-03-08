@@ -6,7 +6,7 @@ website:
   title: "PhEpiGit" 
   site-url: "https://www.klinikum.uni-heidelberg.de/en/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/dept-of-clinical-pharmacology-and-pharmacoepidemiology" 
   repo-url: "https://pharmacoepidemiology-ukhd.github.io/SOPGitHub"
-  repo-actions: [edit, source, issue]
+  #repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
   page-footer:
@@ -15,10 +15,8 @@ website:
   
   sidebar:
     background: "white"
-    #background: "#143D59"
     #logo: logo.svg
     logo: logo.png
-    #favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
