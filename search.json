@@ -14,7 +14,7 @@
     "href": "index.html#purposeobjective",
     "title": "Pharmacoepidemiology GitHub",
     "section": "Purpose/Objective",
-    "text": "Purpose/Objective\nIn the Pharmacoepidemiology (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a Version Control System (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.\nIn addition to these fundamental principles, platforms like GitHub serve as powerful extensions of remote VCS. GitHub is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.\nConsidering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the Pharmacoepidemiology GitHub (PhEpiGit).",
+    "text": "Purpose/Objective\nThe Pharmacoepidemiology (PhEpi) unit relies on effective data management, thorough data analysis, and creating outputs such as plots, tables, and PDF documents as critical components of project development. In this context, a Version Control System (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.\nAdding to these core principles, platforms like GitHub become potent extensions of remote VCS. GitHub, a widely embraced web-based hosting service, fosters seamless collaboration among multiple team members within a project. Its user-friendly interface and robust features enhance workflow efficiency, making teamwork a breeze.\nGiven these advantages, this document lays out the framework for acquiring basic knowledge and setting up an account to join the Pharmacoepidemiology GitHub (PhEpiGit).",
     "crumbs": [
       "Home"
     ]
@@ -24,7 +24,7 @@
     "href": "index.html#scopeapplication",
     "title": "Pharmacoepidemiology GitHub",
     "section": "Scope/Application",
-    "text": "Scope/Application\nThis standard operating procedure applies to all PhEpi employees working and collaborating on a project hosted on the organisational GitHub.",
+    "text": "Scope/Application\nThis extension of the standard operating procedure (SOP) on Reproducible Research applies to all PhEpi employees working on and collaborating on a project hosted on the organizational GitHub.",
     "crumbs": [
       "Home"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#responsibility",
     "title": "Pharmacoepidemiology GitHub",
     "section": "Responsibility",
-    "text": "Responsibility\nEach repository should be organized systematically by the employee responsible for a project. This employee is also responsible for accepting collaborations on their projects. Only projects related to PhEpi are eligible for hosting on the PhEpiGit.",
+    "text": "Responsibility\nEach repository must be systematically organised by a member responsible for a specific project. This member is also responsible for accepting collaborations on their projects. Only PhEpi-related projects are eligible to be hosted on PhEpiGit.",
     "crumbs": [
       "Home"
     ]
@@ -52,31 +52,31 @@
   {
     "objectID": "content/commit_push_main.html",
     "href": "content/commit_push_main.html",
-    "title": "Commit and push your work – origin/main branch",
+    "title": "Committing and Pushing to/from the origin/main Branch",
     "section": "",
-    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).\nNote: Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking the Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
+    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the Rstudio Git tab.\nStarts by:\n\nGo to the Git tab -A-. The window shows all new files or those with modifications\nSelect the files to be committed by checking the boxes -B-.\nClick Commit to open the review changes window (the review window also allows file selection or deselection)-C-.\n\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nNote: Committing changes can also be done from a branch different to main/origin, as described check in Section 5.6. Commit and push– new branch\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), -A-. add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
     "crumbs": [
-      "Commit and push your work – origin/main branch"
+      "Committing and Pushing - origin/main Branch"
     ]
   },
   {
-    "objectID": "content/commit_push_main.html#commit",
-    "href": "content/commit_push_main.html#commit",
-    "title": "Commit and push your work – origin/main branch",
+    "objectID": "content/commit_push_main.html#committing",
+    "href": "content/commit_push_main.html#committing",
+    "title": "Committing and Pushing to/from the origin/main Branch",
     "section": "",
-    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).\nNote: Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking the Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
+    "text": "Committing saves all your new work or changes made to a local repository. Figure 1 shows how to commit changes using the Rstudio Git tab.\nStarts by:\n\nGo to the Git tab -A-. The window shows all new files or those with modifications\nSelect the files to be committed by checking the boxes -B-.\nClick Commit to open the review changes window (the review window also allows file selection or deselection)-C-.\n\n\n\n\n\n\n\nFigure 1: Git windows showing added or modified files.\n\n\n\nNote: Committing changes can also be done from a branch different to main/origin, as described check in Section 5.6. Commit and push– new branch\nThe review window (Figure 2) displays changes and the repository/project history. Once files are selected (checked boxes), -A-. add a brief commit message indicating the change. Finally, click Commit to complete the process.\n\n\n\n\n\n\nFigure 2: Review window.\n\n\n\nAfter clicking Commit (Figure 2), a window pops up indicating the state of the commit. Figure 3 provides a summary of the changes made in the commit process.\n\n\n\n\n\n\nFigure 3: Git Commit window describing the commit changes.",
     "crumbs": [
-      "Commit and push your work – origin/main branch"
+      "Committing and Pushing - origin/main Branch"
     ]
   },
   {
-    "objectID": "content/commit_push_main.html#push",
-    "href": "content/commit_push_main.html#push",
-    "title": "Commit and push your work – origin/main branch",
-    "section": "Push",
-    "text": "Push\nFigure 4 describes the process to (A) push from the Git tab where a (B) message indicates that the local repository is ahead of the remote one (GitHub). Note that this is the main/origin branch. (C) Initiate the push and provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.\n\n\n\n\n\n\nFigure 4: Git tab on RStudio ready to push data to the main/origin branch.",
+    "objectID": "content/commit_push_main.html#pushing",
+    "href": "content/commit_push_main.html#pushing",
+    "title": "Committing and Pushing to/from the origin/main Branch",
+    "section": "Pushing",
+    "text": "Pushing\nWhen pushing you will send all changes made to the GitHub repository. As depicted in Figure 4:\n\nOnce in the Git tab -A-. you will see a message indicating that the local repository is ahead of the remote one (GitHub)-B-. . Please, note that you are using the main/origin branch.\nClick Push to initiate the pushing process -C-. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.\n\n\n\n\n\n\n\nFigure 4: Git tab on RStudio ready to push data to the main/origin branch.",
     "crumbs": [
-      "Commit and push your work – origin/main branch"
+      "Committing and Pushing - origin/main Branch"
     ]
   },
   {
@@ -131,21 +131,21 @@
   {
     "objectID": "content/become_part.html",
     "href": "content/become_part.html",
-    "title": "Becoming part of the PhEpiGit",
+    "title": "Joining the PhEpiGit Community",
     "section": "",
-    "text": "Figure 1 illustrates the process from configuring Git to becoming a member of PhEpiGit. Begin by configuring Git on the local machine/R server using the UKHD email as the user email. If a GitHub account is not already set up, create one, including the UKHD email in the account settings to match Git’s user email. Next, send an email to the PhEpiGit owner requesting an invitation, and be sure to include the GitHub username. Upon receiving the email, the owner sends an invitation granting membership to PhEpiGit.\n\n\n\n\n\n\nFigure 1: Workflow diagram depicting the process from configuring Git to becoming a member of PhEpiGit.\n\n\n\n\nConfiguration on the local machine can be done by using the following code in a terminal (e.g., RStudio terminal)\n\n\n# global configuration of name and email address\ngit config --global user.name \"First Last\"\ngit config --global user.email \"name.surname@med.uni-heidelberg.de\"",
+    "text": "Figure 1 provides a detailed overview of the journey from setting up Git to becoming a member of PhEpiGit. The process starts by configuring Git on your local machine or R server, ensuring you use your UKHD email as the user email. If you have not created a GitHub account yet, now is the time! Simply set one up and make sure to include your UKHD email in the account setting to match Git’s user email.\nOnce that’s sorted, email the PhEpiGit owner, kindly requesting an invitation. Remember to include your GitHub username. Upon receiving your email, the owner will promptly send an invitation granting membership to the PhEpiGit\n\n\n\n\n\n\nFigure 1: Workflow diagram depicting the process from configuring Git to becoming a member of PhEpiGit.\n\n\n\n(*) Configuration on the local machine can be done by using the following code in a terminal (e.g., RStudio terminal)\n\n# global configuration of name and email address\ngit config --global user.name \"First Last\"\ngit config --global user.email \"name.surname@med.uni-heidelberg.de\"",
     "crumbs": [
-      "Becoming part of the PhEpiGit"
+      "Joining the PhEpiGit"
     ]
   },
   {
     "objectID": "content/newbranchcommit.html",
     "href": "content/newbranchcommit.html",
-    "title": "Commit and push– new branch",
+    "title": "Committing and Pushing to/from new Branch",
     "section": "",
     "text": "Follow the instructions in section 5.4 to commit and push a piece of work to/from a new (side) branch of an existing repository/project. The additional step is to open a pull request on PhEpiGit. A pull request enables to communicate to others, especially the repository owner, which files/code/data are ready to be merged from a side branch to the main/origin branch. A pull request can be opened after pushing a piece of work to a side branch. Once the work has been pushed, go to PhEpiGit and locate the repository being collaborated on. Click main to switch to the member branch (Figure 1).\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch, as shown in Figure 2, click (A) the Contribute button to (B) Open a pull request. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
     "crumbs": [
-      "Commit and push– new branch"
+      "Committing and Pushing – new Branch"
     ]
   },
   {
@@ -181,7 +181,7 @@
     "href": "content/clon_git.html",
     "title": "Cloning an existing repository from GitHub",
     "section": "",
-    "text": "Cloning an existing repository is a vital process for collaboration among PhEpiGit members. To collaborate, individuals need to visit the specific PhEpiGit repository and follow the instructions provided from Section 5.2, Step 3, to Section 5.3. External collaborators from PhEpi can also be invited using the Collaborators and Teams option on the GitHub repository settings. Collaborator must create their own branch before commencing work. A new branch can be created by on Git tab (Figure 1 Panel A. a) and clicking the New Branch (Figure 1 Panel A. b). A window appears where the employee’s UKHD name abbreviation (Kürzel) (e.g., New employee: NEmp) must be assigned to the branch name. Ensure Sync branch with remote is checked to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (Figure 1).\n\n\n\n\n\n\nFigure 1: Git tab on RStudio showing the change of branch.",
+    "text": "Cloning an existing repository is essential for collaboration among PhEpiGit members. To get started, members should go to the specific PhEpiGit repository and follow the instructions outlined in Section Cloning GitHub Repositories to Your Local Machine.\nBefore diving into work, collaborators must create their own branch. This can be done by navigating to the Git tab (Figure 1 Panel 1. A) and clicking on New Branch (Figure 1 Panel 1. B). A window will pop up where the employee’s UKHD name abbreviation (Kürzel)(e.g., New employee: NEmp) should be assigned to the branch name. Make sure to check Sync branch with remote to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (Figure 1).\n\n\n\n\n\n\nFigure 1: Git tab on RStudio showing the change of branch.\n\n\n\nNote: External collaborators can also be invited to work on your project However, you need to include their username/email using the Collaborators and Teams option in the GitHub repository settings.\nBranches facilitate parallel development and experimentation by providing isolated environments for new features or issue resolution, preventing interference with the main codebase until changes are finalized. Work done in a branch will not impact the main branch until it’s merged, which typically happens after review, testing, and approval.",
     "crumbs": [
       "Cloning an existing repository from GitHub"
     ]
@@ -189,11 +189,11 @@
   {
     "objectID": "content/copy_repo.html",
     "href": "content/copy_repo.html",
-    "title": "Copy the GitHub repository to your local machine",
+    "title": "Cloning GitHub Repositories to Your Local Machine",
     "section": "",
-    "text": "As shown in Figure 1, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the New repository to the local machine/ R server (refer to Section 5.3).\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 4. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\nAfter clicking the Create Project (Figure 4), a window pops up (Figure 3) requesting the (A) GitHub username and (B) password. However, it needs to provide a Token instead of the password\n\n\n\n\n\n\nFigure 3: Git credential windows to clone the GitHub repository.\n\n\n\nFigure 4 illustrates the appearance of the cloned local repository. Note that this process generates a local .Rproj file (A). Importantly, this .Rproj file must be added to the new repository on GitHub. See the next sections for detailed guidance.\n\n\n\n\n\n\nFigure 4: Files tab in RStudio displays the repository files along with the essential .Rproj file (R project).",
+    "text": "This process starts by:\n\nAs shown in Figure 1, -A- Click Code to display a window containing options for cloning the repository. -B- Copy the HTTPS link provided. The subsequent step involves adding the new repository to your local machine.\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 4. There, -A- insert the copied HTTPS link, -B- name the project, and -C- select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\nAfter clicking the Create Project (Figure 4), a window pops up (Figure 3) requesting the -A- GitHub username and -B- password. Keep in mind that instead of using a password, you’ll need to provide a Token.\n\n\n\n\n\n\nFigure 3: Git credential windows to clone the GitHub repository.\n\n\n\nFigure 4 showcases the cloned local repository. Note that this process generates a local .Rproj file -A-.\n\n\n\n\n\n\nFigure 4: The “Files” tab in RStudio displays the repository files along with the essential .Rproj file (R project).",
     "crumbs": [
-      "Copy the GitHub repository to your local machine"
+      "Cloning GitHub Repositories to Your Local Machine"
     ]
   },
   {
@@ -271,7 +271,7 @@
     "href": "content/project_template.html",
     "title": "Porject template",
     "section": "",
-    "text": "here its is the project. hope this works",
+    "text": "here its is the project. hope this works\nPhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.",
     "crumbs": [
       "Project template"
     ]
@@ -289,11 +289,11 @@
   {
     "objectID": "content/new_repo.html",
     "href": "content/new_repo.html",
-    "title": "Creating a new repository on PhEpiGit",
+    "title": "Creating Your First Repository on PhEpiGit",
     "section": "",
-    "text": "A new repository can be initiated using the command line, RStudio, or GitHub. However, this document will specifically describe the process using GitHub, as it facilitates compliance with the reproducible research SOP.\nOnce employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.\nPhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.\n\nGo to the upper-right corner of the PhEpiGit and select +, then select New repository\n\n\n\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\nSelect the Pharmacoepidemiology-UKHD/project_template to create the new repository -A-. This automatically will select the PhEpi as owner. Name the repository -B- and choose a repository visibility -C-. Additionally you can add a description. Lastly, click Create repositry\n\n\n\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools such as RStudio. This SOP emphasizes utilizing RStudio as a central element for effective GitHub repository management.\n\n\n\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten",
+    "text": "You can create a new repository using the command line, RStudio, or GitHub. However, we’ll focus on GitHub here because it helps us stick to our reproducible research SOP.\nOnce you’re part of the PhEpiGit, you have write permissions. That means you can clone, pull, and push to all our PhEpiGit repositories.\nTo set up a new GitHub repository:\n\nGo to the upper-right corner of the PhEpiGit and select +, then select New repository\n\n\n\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\nChoose the Pharmacoepidemiology-UKHD/project_template to initiate your new repository -A-. This selection will automatically assign the PhEpi as the owner. Next, assign a name to your repository -B- and select an appropriate visibility option -C-. You may also include a description if desired. Lastly, click Create repositry\n\n\n\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools like RStudio. This document underscores utilising RStudio as a central element for effective GitHub repository management.\n\n\n\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten\n\n\n\nThe next step is to clone your newly created GitHub repository to your local machine.",
     "crumbs": [
-      "New repository on PhEpiGit"
+      "Creating Your First Repository"
     ]
   }
 ]
