@@ -33,6 +33,8 @@ website:
     contents:
       - href: index.qmd
         text: Home
+      - href: content/initial.qmd
+        text: Overall flowchart
       - href: content/become_part.qmd
         text: Joining the PhEpiGit
       - href: content/new_repo.qmd
