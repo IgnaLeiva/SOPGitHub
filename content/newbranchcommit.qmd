@@ -2,14 +2,16 @@
 title: "Committing and Pushing to/from new Branch"
 ---
 
+Once you've created your **branch**, you can commit and push your work to your GitHub branch, following the instructions outlined in [Committing and Pushing - origin/main Branch](commit_push_main.qmd). Just ensure that you're executing these actions from your branch.
 
+If you want your work to be merged into the main/origin branch, you need to open a pull request on PhEpiGit. This action requests the merge and serves as a communication tool, especially with the repository owner, allowing for discussion and review of your changes before they are integrated.
 
-Follow the instructions in section 5.4 to commit and push a piece of work to/from a new (side) branch of an existing repository/project. The additional step is to open a pull request on PhEpiGit. A pull request enables to communicate to others, especially the repository owner, which files/code/data are ready to be merged from a side branch to the main/origin branch.
-A pull request can be opened after pushing a piece of work to a side branch. Once the work has been pushed, go to PhEpiGit and locate the repository being collaborated on. Click main to switch to the member branch (@fig-switching).
+After pushing your work, go to PhEpiGit and locate the repository you are collaborating with. Click **main** to switch to the member branch (@fig-switching). From there, you can initiate the pull request process to merge your changes into the main/origin branch.
+
 
 ![Switching branches in a GitHub repository.](images/switching.svg){#fig-switching .absolute top=160 left=380 width="600"}
 
 
-Once on the selected branch, as shown in @fig-pullrequest, click (A) the Contribute button to (B) Open a pull request. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.
+Once on the selected branch **NEmp**, as shown in @fig-pullrequest, click [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} **Contribute**, then **Open pull request** [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.
 
 ![Open a pull request for a GitHub repository branch.](images/pullrequest.svg){#fig-pullrequest .absolute top=160 left=380 width="600"}

@@ -1,15 +1,24 @@
 ---
 title: "Checking and accepting a pull request"
 ---
+After a collaborator has initiated a merge request, the repository owner generally reviews and accepts pull requests.
 
-The action of reviewing and accepting pull requests needs to be performed by the repository owner. Any (A) pull request can be viewed in the repository tabs, as illustrated in @fig-pullchecking. Once in the Pull request section, a list of requests is displayed, and various actions can be taken. Access a specific request by clicking on (B) the pull request name
+To accept a submitted pull request, follow these steps (see @fig-pullchecking):
+
+ 1.   Go to the **Pull requests** tab in the GitHub repository [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Here, you'll find a list of requests where you can take various actions.
+ 2.   Access a specific request by clicking on the pull request name [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. 
+
+This allows you to thoroughly review the proposed changes and decide whether to accept, request modifications, or close the request.
+
 
 ![Checking a pull request on GitHub.](images/pullchecking.svg){#fig-pullchecking .absolute top=160 left=380 width="600"}
 
-@fig-descriptionpulling shows an open pull request. This provides (A) information on the commit content and (B) request description. The owner and contributor can message around if clarifications are needed using (C) Add a comment section prior to (d) merge. 
-After the pull request has been accepted and merged, the pull request status will change from Open to Merged. Additionally, the branch can be deleted if it is no longer needed.
+
+@fig-descriptionpulling displays the content of a pull request, providing information on the commit [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} and the request description [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Using **Add a comment** section [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}, both the repository owner and contributor can exchange messages for clarifications before proceeding to merge [[-]{style="color: #143D59"}D[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}.
+
+After the pull request has been accepted and merged, its status will transition from **Open** to **Merged**. Additionally, if the branch is no longer needed, it can be safely deleted.
 
 
-![Description of an open pulling request.](images/descriptionpulling.svg){#fig-descriptionpulling .absolute top=160 left=380 width="600"}
+![Description of an opened pulling request.](images/descriptionpulling.svg){#fig-descriptionpulling .absolute top=160 left=380 width="600"}
 
  

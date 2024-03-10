@@ -37,3 +37,5 @@ When pushing you will send all changes made to the GitHub repository. As depicte
  2.   Click **Push** to initiate the pushing process [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.
 
 ![Git tab on RStudio ready to push data to the main/origin branch.](images/gittab.svg){#fig-gittab .absolute top=160 left=380 width="600"}
+
+**Note**: _Before proceeding with subsequent push actions, ensure your local repository is up-to-date. You can do this by clicking "Pull" in the Git tab._
