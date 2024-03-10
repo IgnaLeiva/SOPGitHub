@@ -203,8 +203,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The action of reviewing and accepting pull requests needs to be performed by the repository owner. Any (A) pull request can be viewed in the repository tabs, as illustrated in <a href="#fig-pullchecking" class="quarto-xref">Figure&nbsp;1</a>. Once in the Pull request section, a list of requests is displayed, and various actions can be taken. Access a specific request by clicking on (B) the pull request name</p>
-<div id="fig-pullchecking" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
+<p>After a collaborator has initiated a merge request, the repository owner generally reviews and accepts pull requests.</p>
+<p>To accept a submitted pull request, follow these steps (see <a href="#fig-pullchecking" class="quarto-xref">Figure&nbsp;1</a>):</p>
+<ol type="1">
+<li>Go to the <strong>Pull requests</strong> tab in the GitHub repository <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>A<span style="color: #143D59">-</span></span>. Here, you’ll find a list of requests where you can take various actions.</li>
+<li>Access a specific request by clicking on the pull request name <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>B<span style="color: #143D59">-</span></span>.</li>
+</ol>
+<p>This allows you to thoroughly review the proposed changes and decide whether to accept, request modifications, or close the request.</p>
+<div id="fig-pullchecking" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-left="380" data-top="160">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-pullchecking-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/pullchecking.svg" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="600">
@@ -214,14 +220,15 @@ Figure&nbsp;1: Checking a pull request on GitHub.
 </figcaption>
 </figure>
 </div>
-<p><a href="#fig-descriptionpulling" class="quarto-xref">Figure&nbsp;2</a> shows an open pull request. This provides (A) information on the commit content and (B) request description. The owner and contributor can message around if clarifications are needed using (C) Add a comment section prior to (d) merge. After the pull request has been accepted and merged, the pull request status will change from Open to Merged. Additionally, the branch can be deleted if it is no longer needed.</p>
-<div id="fig-descriptionpulling" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
+<p><a href="#fig-descriptionpulling" class="quarto-xref">Figure&nbsp;2</a> displays the content of a pull request, providing information on the commit <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>A<span style="color: #143D59">-</span></span> and the request description <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>B<span style="color: #143D59">-</span></span>. Using <strong>Add a comment</strong> section <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>C<span style="color: #143D59">-</span></span>, both the repository owner and contributor can exchange messages for clarifications before proceeding to merge <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>D<span style="color: #143D59">-</span></span>.</p>
+<p>After the pull request has been accepted and merged, its status will transition from <strong>Open</strong> to <strong>Merged</strong>. Additionally, if the branch is no longer needed, it can be safely deleted.</p>
+<div id="fig-descriptionpulling" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-left="380" data-top="160">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-descriptionpulling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/descriptionpulling.svg" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="600">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-descriptionpulling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Description of an open pulling request.
+Figure&nbsp;2: Description of an opened pulling request.
 </figcaption>
 </figure>
 </div>

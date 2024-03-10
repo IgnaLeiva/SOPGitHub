@@ -74,7 +74,7 @@
     "href": "content/commit_push_main.html#pushing",
     "title": "Committing and Pushing to/from the origin/main Branch",
     "section": "Pushing",
-    "text": "Pushing\nWhen pushing you will send all changes made to the GitHub repository. As depicted in Figure 4:\n\nOnce in the Git tab -A-. you will see a message indicating that the local repository is ahead of the remote one (GitHub)-B-. . Please, note that you are using the main/origin branch.\nClick Push to initiate the pushing process -C-. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.\n\n\n\n\n\n\n\nFigure 4: Git tab on RStudio ready to push data to the main/origin branch.",
+    "text": "Pushing\nWhen pushing you will send all changes made to the GitHub repository. As depicted in Figure 4:\n\nOnce in the Git tab -A-. you will see a message indicating that the local repository is ahead of the remote one (GitHub)-B-. . Please, note that you are using the main/origin branch.\nClick Push to initiate the pushing process -C-. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.\n\n\n\n\n\n\n\nFigure 4: Git tab on RStudio ready to push data to the main/origin branch.\n\n\n\nNote: Before proceeding with subsequent push actions, ensure your local repository is up-to-date. You can do this by clicking “Pull” in the Git tab.",
     "crumbs": [
       "Committing and Pushing - origin/main Branch"
     ]
@@ -143,7 +143,7 @@
     "href": "content/newbranchcommit.html",
     "title": "Committing and Pushing to/from new Branch",
     "section": "",
-    "text": "Follow the instructions in section 5.4 to commit and push a piece of work to/from a new (side) branch of an existing repository/project. The additional step is to open a pull request on PhEpiGit. A pull request enables to communicate to others, especially the repository owner, which files/code/data are ready to be merged from a side branch to the main/origin branch. A pull request can be opened after pushing a piece of work to a side branch. Once the work has been pushed, go to PhEpiGit and locate the repository being collaborated on. Click main to switch to the member branch (Figure 1).\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch, as shown in Figure 2, click (A) the Contribute button to (B) Open a pull request. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
+    "text": "Once you’ve created your branch, you can commit and push your work to your GitHub branch, following the instructions outlined in Committing and Pushing - origin/main Branch. Just ensure that you’re executing these actions from your branch.\nIf you want your work to be merged into the main/origin branch, you need to open a pull request on PhEpiGit. This action requests the merge and serves as a communication tool, especially with the repository owner, allowing for discussion and review of your changes before they are integrated.\nAfter pushing your work, go to PhEpiGit and locate the repository you are collaborating with. Click main to switch to the member branch (Figure 1). From there, you can initiate the pull request process to merge your changes into the main/origin branch.\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch NEmp, as shown in Figure 2, click -A- Contribute, then Open pull request -B-. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
     "crumbs": [
       "Committing and Pushing – new Branch"
     ]
@@ -271,7 +271,7 @@
     "href": "content/project_template.html",
     "title": "Porject template",
     "section": "",
-    "text": "here its is the project. hope this works\nPhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders indicated in PhEpi-1-05_Reproduzierbares Arbeiten.",
+    "text": "PhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders specified in PhEpi-1-05_Reproduzierbares Arbeiten.",
     "crumbs": [
       "Project template"
     ]
@@ -281,7 +281,7 @@
     "href": "content/acceptpull.html",
     "title": "Checking and accepting a pull request",
     "section": "",
-    "text": "The action of reviewing and accepting pull requests needs to be performed by the repository owner. Any (A) pull request can be viewed in the repository tabs, as illustrated in Figure 1. Once in the Pull request section, a list of requests is displayed, and various actions can be taken. Access a specific request by clicking on (B) the pull request name\n\n\n\n\n\n\nFigure 1: Checking a pull request on GitHub.\n\n\n\nFigure 2 shows an open pull request. This provides (A) information on the commit content and (B) request description. The owner and contributor can message around if clarifications are needed using (C) Add a comment section prior to (d) merge. After the pull request has been accepted and merged, the pull request status will change from Open to Merged. Additionally, the branch can be deleted if it is no longer needed.\n\n\n\n\n\n\nFigure 2: Description of an open pulling request.",
+    "text": "After a collaborator has initiated a merge request, the repository owner generally reviews and accepts pull requests.\nTo accept a submitted pull request, follow these steps (see Figure 1):\n\nGo to the Pull requests tab in the GitHub repository -A-. Here, you’ll find a list of requests where you can take various actions.\nAccess a specific request by clicking on the pull request name -B-.\n\nThis allows you to thoroughly review the proposed changes and decide whether to accept, request modifications, or close the request.\n\n\n\n\n\n\nFigure 1: Checking a pull request on GitHub.\n\n\n\nFigure 2 displays the content of a pull request, providing information on the commit -A- and the request description -B-. Using Add a comment section -C-, both the repository owner and contributor can exchange messages for clarifications before proceeding to merge -D-.\nAfter the pull request has been accepted and merged, its status will transition from Open to Merged. Additionally, if the branch is no longer needed, it can be safely deleted.\n\n\n\n\n\n\nFigure 2: Description of an opened pulling request.",
     "crumbs": [
       "Checking and accepting a pull request"
     ]
