@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PhEpiGit - Committing and Pushing to/from the origin/main Branch</title>
+<title>PhEpiGit - Overall flowchart</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/clon_git.html" rel="next">
-<link href="../content/copy_repo.html" rel="prev">
+<link href="../content/become_part.html" rel="next">
+<link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/commit_push_main.html">Committing and Pushing - origin/main Branch</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/initial.html">Overall flowchart</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/initial.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/initial.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Overall flowchart</span></a>
   </div>
 </li>
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/commit_push_main.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/commit_push_main.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Committing and Pushing - origin/main Branch</span></a>
   </div>
 </li>
@@ -185,21 +185,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#committing" id="toc-committing" class="nav-link active" data-scroll-target="#committing">Committing</a></li>
-  <li><a href="#pushing" id="toc-pushing" class="nav-link" data-scroll-target="#pushing">Pushing</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Committing and Pushing to/from the origin/main Branch</h1>
+<h1 class="title">Overall flowchart</h1>
 </div>
 
 
@@ -216,70 +209,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="committing" class="level2">
-<h2 class="anchored" data-anchor-id="committing">Committing</h2>
-<p>Committing saves all your new work or changes made to a local repository. <a href="#fig-gitwindow" class="quarto-xref">Figure&nbsp;1</a> shows how to commit changes using the Rstudio Git tab.</p>
-<p><span style="color: #2E6B96; font-weight: bold;">Starts by:</span></p>
-<ol type="1">
-<li>Go to the Git tab <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>A<span style="color: #143D59">-</span></span>. The window shows all new files or those with modifications</li>
-<li>Select the files to be committed by checking the boxes <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>B<span style="color: #143D59">-</span></span>.</li>
-<li>Click <strong>Commit</strong> to open the review changes window (the review window also allows file selection or deselection)<span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>C<span style="color: #143D59">-</span></span>.</li>
-</ol>
-<div id="fig-gitwindow" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-gitwindow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/gitwindow.svg" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="600">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gitwindow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Git windows showing added or modified files.
-</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/flow.svg" class="img-fluid figure-img"></p>
+<figcaption>Overall document flowchart</figcaption>
 </figure>
 </div>
-<p><strong>Note:</strong> <em>Committing changes can also be done from a branch different to main/origin, as described <a href="../content/clon_git.html">check</a> in Section 5.6. Commit and push– new branch</em></p>
-<p>The review window (<a href="#fig-messagecommit" class="quarto-xref">Figure&nbsp;2</a>) displays changes and the repository/project history. Once files are selected (checked boxes), <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>A<span style="color: #143D59">-</span></span>. add a brief commit message indicating the change. Finally, click <strong>Commit</strong> to complete the process.</p>
-<div id="fig-messagecommit" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-messagecommit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/messagecommit.svg" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="600">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-messagecommit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: Review window.
-</figcaption>
-</figure>
-</div>
-<p>After clicking <strong>Commit</strong> (<a href="#fig-messagecommit" class="quarto-xref">Figure&nbsp;2</a>), a window pops up indicating the state of the commit. <a href="#fig-gitcommit" class="quarto-xref">Figure&nbsp;3</a> provides a summary of the changes made in the commit process.</p>
-<div id="fig-gitcommit" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160px" data-left="500px">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-gitcommit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/gitcommit.svg" class="absolute img-fluid figure-img" data-top="160px" data-left="500px" width="900">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gitcommit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Git Commit window describing the commit changes.
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="pushing" class="level2">
-<h2 class="anchored" data-anchor-id="pushing">Pushing</h2>
-<p>When pushing you will send all changes made to the GitHub repository. As depicted in <a href="#fig-gittab" class="quarto-xref">Figure&nbsp;4</a>:</p>
-<ol type="1">
-<li>Once in the Git tab <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>A<span style="color: #143D59">-</span></span>. you will see a message indicating that the local repository is ahead of the remote one (GitHub)<span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>B<span style="color: #143D59">-</span></span>. . Please, note that you are using the main/origin branch.</li>
-<li>Click <strong>Push</strong> to initiate the pushing process <span style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"><span style="color: #143D59">-</span>C<span style="color: #143D59">-</span></span>. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.</li>
-</ol>
-<div id="fig-gittab" class="absolute quarto-figure quarto-figure-center quarto-float anchored" data-top="160" data-left="380">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-gittab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/gittab.svg" class="absolute img-fluid figure-img" data-top="160" data-left="380" width="600">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gittab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: Git tab on RStudio ready to push data to the main/origin branch.
-</figcaption>
-</figure>
-</div>
-<p><strong>Note</strong>: <em>Before proceeding with subsequent push actions, ensure your local repository is up-to-date. You can do this by clicking “Pull” in the Git tab.</em></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -837,13 +774,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/copy_repo.html" class="pagination-link" aria-label="Cloning GitHub Repositories to Your Local Machine">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cloning GitHub Repositories to Your Local Machine</span>
+      <a href="../index.html" class="pagination-link" aria-label="Home">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/clon_git.html" class="pagination-link" aria-label="Cloning an existing repository from GitHub">
-        <span class="nav-page-text">Cloning an existing repository from GitHub</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/become_part.html" class="pagination-link" aria-label="Joining the PhEpiGit">
+        <span class="nav-page-text">Joining the PhEpiGit</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
