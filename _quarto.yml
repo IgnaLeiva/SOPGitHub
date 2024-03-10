@@ -34,17 +34,17 @@ website:
       - href: index.qmd
         text: Home
       - href: content/become_part.qmd
-        text: Becoming part of the PhEpiGit
+        text: Joining the PhEpiGit
       - href: content/new_repo.qmd
-        text: New repository on PhEpiGit
+        text: Creating Your First Repository
       - href: content/copy_repo.qmd
-        text: Copy the GitHub repository to your local machine
+        text: Cloning GitHub Repositories to Your Local Machine
       - href: content/commit_push_main.qmd
-        text: Commit and push your work – origin/main branch
+        text: Committing and Pushing - origin/main Branch
       - href: content/clon_git.qmd
         text: Cloning an existing repository from GitHub
       - href: content/newbranchcommit.qmd
-        text: Commit and push– new branch
+        text: Committing and Pushing – new Branch
       - href: content/acceptpull.qmd
         text: Checking and accepting a pull request
       - href: content/definitions.qmd

@@ -1,6 +1,6 @@
 ---
 title: "Pharmacoepidemiology GitHub"
-subtitle: "Extension of the Standard Operating Procedure (SOP)"
+subtitle: "Extension of the standard operating procedure (SOP)"
 page-layout: full
 ---
 
@@ -9,20 +9,20 @@ This is an extension of the _PhEpi-1-05_Reproduzierbares Arbeiten SOP_
 
 ## Purpose/Objective
 
+The [Pharmacoepidemiology]{style="color: #2E6B96; font-weight: bold;"} (PhEpi) unit relies on effective data management, thorough data analysis, and creating outputs such as plots, tables, and PDF documents as critical components of project development. In this context, a [Version Control System](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.
 
-In the [Pharmacoepidemiology]{style="color: #2E6B96; font-weight: bold; background-color: #2E6B96; border-radius: 50%;"} (PhEpi) unit, effective data management, data analysis, and the generation of outputs, such as plots, tables, and PDF documents, are critical components of project development. In this context, a _Version Control System_ (VCS) plays a pivotal role. A VCS facilitates tracking and managing changes made to the project over time, encompassing any modification to folders, files, and code. This capability empowers teams to work more efficiently and intelligently, ensuring a streamlined and collaborative development process.
+Adding to these core principles, platforms like [GitHub](https://github.com) become potent extensions of remote VCS. _GitHub_, a widely embraced web-based hosting service, fosters seamless collaboration among multiple team members within a project. Its user-friendly interface and robust features enhance workflow efficiency, making teamwork a breeze.
 
-In addition to these fundamental principles, platforms like [GitHub](https://github.com) serve as powerful extensions of remote VCS. _GitHub_ is a widely used web-based hosting service that facilitates collaboration among multiple individuals in a specific project, enhancing workflow efficiency within a team.
+Given these advantages, this document lays out the framework for acquiring basic knowledge and setting up an account to join the _Pharmacoepidemiology GitHub_ (PhEpiGit).
 
-Considering these benefits, this document provides the framework to acquire the basic knowledge and set up an account to participate in the _Pharmacoepidemiology GitHub_ (PhEpiGit).
 
 ## Scope/Application
 
-This standard operating procedure applies to all PhEpi employees working and collaborating on a project hosted on the organisational GitHub.
+This extension of the standard operating procedure (SOP) on Reproducible Research applies to all PhEpi employees working on and collaborating on a project hosted on the organizational GitHub.
 
 ## Responsibility
 
-Each repository should be organized systematically by the employee responsible for a project. This employee is also responsible for accepting collaborations on their projects. Only projects related to PhEpi are eligible for hosting on the PhEpiGit.
+Each repository must be systematically organised by a member responsible for a specific project. This member is also responsible for accepting collaborations on their projects. Only PhEpi-related projects are eligible to be hosted on PhEpiGit.
 
 <!--
 This is a template for a simple Quarto website that looks like a "book". This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to `theme.scss`. The webpage will be on the `gh-pages` branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.

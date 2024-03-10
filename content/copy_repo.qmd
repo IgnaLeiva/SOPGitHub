@@ -1,9 +1,10 @@
 ---
-title: "Copy the GitHub repository to your local machine"
+title: "Cloning GitHub Repositories to Your Local Machine"
 ---
+[This process starts by:]{style="color: #2E6B96; font-weight: bold;"}
 
+1. As shown in @fig-copyrepo, [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} Click **Code** to display a window containing options for cloning the repository. [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} Copy the HTTPS link provided. The subsequent step involves adding the **new repository** to your local machine.
 
-1. As shown in @fig-copyrepo, (A) Click the Code button to display a window with options for cloning the repository, then (B) copy the HTTPS link. The next step is to add the **New repository** to the local machine/ R server (refer to Section 5.3).
 
 ![Options to clone the repository.](images/copyrepo.svg){#fig-copyrepo .absolute top=160px left=500px width="600"}
 
@@ -27,7 +28,7 @@ title: "Copy the GitHub repository to your local machine"
 :::
 -->
 
-2. Log-in into your R Server and access the RStudio menu bar, choose **File $\rightarrow$ New Project $\rightarrow$ Version Control $\rightarrow$ Git**. This displays the window depicted in @fig-rstudiogit. There, (A) insert the copied HTTPS link, (B) name the project, and (C) select a location for saving the local repository.
+2. Log-in into your R Server and access the RStudio menu bar, choose **File $\rightarrow$ New Project $\rightarrow$ Version Control $\rightarrow$ Git**. This displays the window depicted in @fig-rstudiogit. There, [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} insert the copied HTTPS link, [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} name the project, and [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} select a location for saving the local repository.
 
 
 ![Git window to clone the GitHub repository.](images/rstudiogit.svg){#fig-rstudiogit .absolute top=160px left=500px width="500"}
@@ -49,15 +50,15 @@ title: "Copy the GitHub repository to your local machine"
 
 -->
 
-After clicking the **Create Project** (@fig-rstudiogit), a window pops up (@fig-credential) requesting the (A) GitHub username and (B) password. However, it needs to provide a **Token** instead of the password
+After clicking the **Create Project** (@fig-rstudiogit), a window pops up (@fig-credential) requesting the [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} GitHub username and [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} password. Keep in mind that instead of using a password, you'll need to provide a **Token**.
 
 ![Git credential windows to clone the GitHub repository.](images/credential.svg){#fig-credential .absolute top=160px left=500px width="800"}
 
 
-@fig-rstudiogit illustrates the appearance of the cloned local repository. Note that this process generates a local .Rproj file (A). Importantly, this .Rproj file must be added to the new repository on GitHub. See the next sections for detailed guidance.
+@fig-rstudiogit showcases the cloned local repository. Note that this process generates a local _.Rproj_ file [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. 
 
 
-![Files tab in RStudio displays the repository files along with the essential .Rproj file (R project).](images/rprojgeneration.svg){#fig-rstudiogit .absolute top=160px left=500px width="600"}
+![The "Files" tab in RStudio displays the repository files along with the essential .Rproj file (R project).](images/rprojgeneration.svg){#fig-rstudiogit .absolute top=160px left=500px width="600"}
 
 
 

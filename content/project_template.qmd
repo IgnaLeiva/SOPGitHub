@@ -2,3 +2,8 @@
 title: "Porject template"
 ---
 here its is the project. hope this works
+
+
+PhEpiGit provides a **project_template** repository that should be used each time a member creates a new repository. This template includes all the folders indicated in _PhEpi-1-05_Reproduzierbares Arbeiten._
+
+

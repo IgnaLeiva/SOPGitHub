@@ -1,12 +1,12 @@
 ---
-title: "Creating a new repository on PhEpiGit"
+title: "Creating Your First Repository on PhEpiGit"
 ---
 
-A new repository can be initiated using the command line, RStudio, or GitHub. However, this document will specifically describe the process using GitHub, as it facilitates compliance with the reproducible research SOP.
+You can create a new repository using the command line, RStudio, or GitHub. However, we'll focus on GitHub here because it helps us stick to our reproducible research SOP.
 
-Once employees become PhEpiGit members, they have write permissions, allowing them to clone, pull, and push to all PhEpiGit repositories.
+Once you're part of the PhEpiGit, you have write permissions. That means you can clone, pull, and push to all our PhEpiGit repositories.
 
-PhEpiGit provides a **project_template** repository that should be used each time a member creates a new repository. This template includes all the folders indicated in _PhEpi-1-05_Reproduzierbares Arbeiten._
+[To set up a new GitHub repository:]{style="color: #2E6B96; font-weight: bold;"}
 
 1. Go to the upper-right corner of the PhEpiGit and select +, then select **New repository**
 
@@ -28,7 +28,7 @@ PhEpiGit provides a **project_template** repository that should be used each tim
 
 
 
-2. Select the [**Pharmacoepidemiology-UKHD/project_template** ](project_template.qmd) to create the new repository [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. This automatically will select the PhEpi as owner. Name the repository [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} and choose a repository visibility [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Additionally you can add a description. Lastly, click **Create repositry**
+2. Choose the [**Pharmacoepidemiology-UKHD/project_template** ](project_template.qmd) to initiate your new repository [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. This selection will automatically assign the PhEpi as the owner. Next, assign a name to your repository [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} and select an appropriate visibility option [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. You may also include a description if desired. Lastly, click **Create repositry**
 
 
 
@@ -54,8 +54,8 @@ PhEpiGit provides a **project_template** repository that should be used each tim
 
 -->
 
-@fig-newrepo3  shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools such as RStudio. This SOP emphasizes utilizing RStudio as a central element for effective GitHub repository management.
+@fig-newrepo3  shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools like RStudio. This document underscores utilising RStudio as a central element for effective GitHub repository management.
 
 ![New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten](images/newrepo3.png){#fig-newrepo3 .absolute top=160 left=380 width="500"}
 
-
+The next step is to **clone** your newly created GitHub repository to your local machine.

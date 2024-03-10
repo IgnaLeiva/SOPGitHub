@@ -1,6 +1,8 @@
 ---
-title: "Commit and push– new branch"
+title: "Committing and Pushing to/from new Branch"
 ---
+
+
 
 Follow the instructions in section 5.4 to commit and push a piece of work to/from a new (side) branch of an existing repository/project. The additional step is to open a pull request on PhEpiGit. A pull request enables to communicate to others, especially the repository owner, which files/code/data are ready to be merged from a side branch to the main/origin branch.
 A pull request can be opened after pushing a piece of work to a side branch. Once the work has been pushed, go to PhEpiGit and locate the repository being collaborated on. Click main to switch to the member branch (@fig-switching).

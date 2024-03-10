@@ -1,26 +1,39 @@
 ---
-title: "Commit and push your work – origin/main branch"
+title: "Committing and Pushing to/from the origin/main Branch"
 ---
 
-## Commit
+## Committing
 
-Committing saves all your new work or changes made to a local repository. @fig-gitwindow shows how to commit changes using the (A) Git tab of RStudio. The window shows all new files or those with modifications. (B) Select the files to be committed by checking the boxes. Finally, (C) click Commit to open the review changes window (the review window also allows file selection or deselection).
 
-__Note:__ _Committing changes can also be done from a branch different to main/origin, as described in Section 5.6. Commit and push– new branch_
+Committing saves all your new work or changes made to a local repository. @fig-gitwindow shows how to commit changes using the Rstudio Git tab.
+
+[Starts by:]{style="color: #2E6B96; font-weight: bold;"}
+
+  1. Go to the Git tab [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. The window shows all new files or those with modifications
+  2. Select the files to be committed by checking the boxes [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}.
+  3. Click **Commit** to open the review changes window (the review window also allows file selection or deselection)[[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}.
+
 
 ![Git windows showing added or modified files.](images/gitwindow.svg){#fig-gitwindow .absolute top=160 left=380 width="600"}
 
-The review window (@fig-messagecommit) displays changes and the repository/project history. Once files are selected (checked boxes), (A) add a brief commit message indicating the change. Finally, click **Commit** to complete the process.
+__Note:__ _Committing changes can also be done from a branch different to main/origin, as described [check](clon_git.qmd) in Section 5.6. Commit and push– new branch_
+
+The review window (@fig-messagecommit) displays changes and the repository/project history. Once files are selected (checked boxes), [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. add a brief commit message indicating the change. Finally, click **Commit** to complete the process.
 
 
 ![Review window.](images/messagecommit.svg){#fig-messagecommit .absolute top=160 left=380 width="600"}
 
-After clicking the **Commit** (@fig-messagecommit), a window pops up indicating the state of the commit. @fig-gitcommit provides a summary of the changes made in the commit process. 
+After clicking **Commit** (@fig-messagecommit), a window pops up indicating the state of the commit. @fig-gitcommit provides a summary of the changes made in the commit process. 
 
 ![Git Commit window describing the commit changes.](images/gitcommit.svg){#fig-gitcommit .absolute top=160px left=500px width=900px}
 
-## Push
+## Pushing
 
-@fig-gittab describes the process to (A) push from the Git tab where a (B) message indicates that the local repository is ahead of the remote one (GitHub). Note that this is the main/origin branch. (C) Initiate the push and provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.
+When pushing you will send all changes made to the GitHub repository. As depicted in @fig-gittab:
+
+ 1.   Once in the Git tab [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}.
+ you will see a message indicating that the local repository is ahead of the remote one (GitHub)[[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}.
+. Please, note that you are using the main/origin branch. 
+ 2.   Click **Push** to initiate the pushing process [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. Provide GitHub identification when prompted. Just like the commit process, clicking the push button brings up a Git Push window providing the information related to this action.
 
 ![Git tab on RStudio ready to push data to the main/origin branch.](images/gittab.svg){#fig-gittab .absolute top=160 left=380 width="600"}
