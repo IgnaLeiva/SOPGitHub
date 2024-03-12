@@ -50,7 +50,7 @@ title: "Cloning GitHub Repositories to Your Local Machine"
 
 -->
 
-After clicking the **Create Project** (@fig-rstudiogit), a window pops up (@fig-credential) requesting the [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} GitHub username and [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} password. Keep in mind that instead of using a password, you'll need to provide a **Token**.
+After clicking the **Create Project** (@fig-rstudiogit), a window pops up (@fig-credential) requesting the [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} GitHub username and [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} password. Keep in mind that instead of using a password, you'll need to provide a personal [**Token**](https://docs.github.com/en/enterprise-server@3.8/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 ![Git credential windows to clone the GitHub repository.](images/credential.svg){#fig-credential .absolute top=160px left=500px width="800"}
 
