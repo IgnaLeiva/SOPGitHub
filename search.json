@@ -40,13 +40,20 @@
     ]
   },
   {
-    "objectID": "content/definitions.html",
-    "href": "content/definitions.html",
-    "title": "Terms, definitions and abbreviation",
+    "objectID": "content/acknowledgements.html",
+    "href": "content/acknowledgements.html",
+    "title": "Acknowledgments",
     "section": "",
-    "text": "Term\nDefinition\n\n\n\n\nCollaboration\nShared project or technical/expertise support provided to other researchers.\n\n\nCommit\nInvolves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.\n\n\nGitHub\nA web-based interface that uses Git for version control\n\n\nPhEpi\nPharmacoepidemiology unit\n\n\nPhEpiGit\nPharmacoepidemiology unit GitHub\n\n\nRepository\nCentralized storage space that holds a project’s files and their complete history (track changes)\n\n\nR projects\nStructured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a “.Rproj” configuration file, and isolated settings.\n\n\nSOP\nStandard operating procedure\n\n\nPushing\nRefers to sending committed (saved) changes from your local repository to a remote repository (GitHub).\n\n\nVCS\nVersion Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code.",
+    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
+  },
+  {
+    "objectID": "content/initial.html",
+    "href": "content/initial.html",
+    "title": "Overall flowchart",
+    "section": "",
+    "text": "Overall document flowchart",
     "crumbs": [
-      "Terms, definitions and abbreviation"
+      "Overall flowchart"
     ]
   },
   {
@@ -80,53 +87,44 @@
     ]
   },
   {
-    "objectID": "content/rendering.html",
-    "href": "content/rendering.html",
-    "title": "Rendering",
+    "objectID": "content/acceptpull.html",
+    "href": "content/acceptpull.html",
+    "title": "Checking and accepting a pull request",
     "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally."
+    "text": "After a collaborator has initiated a merge request, the repository owner generally reviews and accepts pull requests.\nTo accept a submitted pull request, follow these steps (see Figure 1):\n\nGo to the Pull requests tab in the GitHub repository -A-. Here, you’ll find a list of requests where you can take various actions.\nAccess a specific request by clicking on the pull request name -B-.\n\nThis allows you to thoroughly review the proposed changes and decide whether to accept, request modifications, or close the request.\n\n\n\n\n\n\nFigure 1: Checking a pull request on GitHub.\n\n\n\nFigure 2 displays the content of a pull request, providing information on the commit -A- and the request description -B-. Using Add a comment section -C-, both the repository owner and contributor can exchange messages for clarifications before proceeding to merge -D-.\nAfter the pull request has been accepted and merged, its status will transition from Open to Merged. Additionally, if the branch is no longer needed, it can be safely deleted.\n\n\n\n\n\n\nFigure 2: Description of an opened pulling request.",
+    "crumbs": [
+      "Checking and accepting a pull request"
+    ]
   },
   {
-    "objectID": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto."
-  },
-  {
-    "objectID": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up."
-  },
-  {
-    "objectID": "content/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”."
-  },
-  {
-    "objectID": "content/code.html",
-    "href": "content/code.html",
-    "title": "Rendering with Code",
+    "objectID": "content/newbranchcommit.html",
+    "href": "content/newbranchcommit.html",
+    "title": "Committing and Pushing to/from new Branch",
     "section": "",
-    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+    "text": "Once you’ve created your branch, you can commit and push your work to your GitHub branch, following the instructions outlined in Committing and Pushing - origin/main Branch. Just ensure that you’re executing these actions from your branch.\nIf you want your work to be merged into the main/origin branch, you need to open a pull request on PhEpiGit. This action requests the merge and serves as a communication tool, especially with the repository owner, allowing for discussion and review of your changes before they are integrated.\nAfter pushing your work, go to PhEpiGit and locate the repository you are collaborating with. Click main to switch to the member branch (Figure 1). From there, you can initiate the pull request process to merge your changes into the main/origin branch.\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch NEmp, as shown in Figure 2, click -A- Contribute, then Open pull request -B-. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
+    "crumbs": [
+      "Committing and Pushing – new Branch"
+    ]
   },
   {
-    "objectID": "content/code.html#modify-the-github-action",
-    "href": "content/code.html#modify-the-github-action",
-    "title": "Rendering with Code",
-    "section": "Modify the GitHub Action",
-    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+    "objectID": "content/project_template.html",
+    "href": "content/project_template.html",
+    "title": "Porject template",
+    "section": "",
+    "text": "PhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders specified in PhEpi-1-05_Reproduzierbares Arbeiten.\nImportant Information:\n\n.gitignore file: This specifies which files and folders will be ignored in the pushing process to the remote repository (GitHub). We have already included there the data folder which may contain sensitive information (e.g. patient data). Please make sure to save all data in that folder, otherwise include the name of the data file in the .gitignore file. More information can be found here.",
+    "crumbs": [
+      "Project template"
+    ]
   },
   {
-    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
-    "title": "Rendering with Code",
-    "section": "Render locally and publish to gh-pages branch",
-    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
+    "objectID": "content/definitions.html",
+    "href": "content/definitions.html",
+    "title": "Terms, definitions and abbreviation",
+    "section": "",
+    "text": "Term\nDefinition\n\n\n\n\nCollaboration\nShared project or technical/expertise support provided to other researchers.\n\n\nCommit\nInvolves saving changes made in your local repository. Each commit represents a snapshot of the project at specific point in time.\n\n\nGitHub\nA web-based interface that uses Git for version control\n\n\nPhEpi\nPharmacoepidemiology unit\n\n\nPhEpiGit\nPharmacoepidemiology unit GitHub\n\n\nRepository\nCentralized storage space that holds a project’s files and their complete history (track changes)\n\n\nR projects\nStructured environment created within the integrated development environment (IDE). It includes a dedicated project directory, a “.Rproj” configuration file, and isolated settings.\n\n\nSOP\nStandard operating procedure\n\n\nPushing\nRefers to sending committed (saved) changes from your local repository to a remote repository (GitHub).\n\n\nVCS\nVersion Control System. A VCS facilitates the tracking and managing of changes made to the project over time, encompassing any modification to folders, files, and code.",
+    "crumbs": [
+      "Terms, definitions and abbreviation"
+    ]
   },
   {
     "objectID": "content/become_part.html",
@@ -139,13 +137,13 @@
     ]
   },
   {
-    "objectID": "content/newbranchcommit.html",
-    "href": "content/newbranchcommit.html",
-    "title": "Committing and Pushing to/from new Branch",
+    "objectID": "content/copy_repo.html",
+    "href": "content/copy_repo.html",
+    "title": "Cloning GitHub Repositories to Your Local Machine",
     "section": "",
-    "text": "Once you’ve created your branch, you can commit and push your work to your GitHub branch, following the instructions outlined in Committing and Pushing - origin/main Branch. Just ensure that you’re executing these actions from your branch.\nIf you want your work to be merged into the main/origin branch, you need to open a pull request on PhEpiGit. This action requests the merge and serves as a communication tool, especially with the repository owner, allowing for discussion and review of your changes before they are integrated.\nAfter pushing your work, go to PhEpiGit and locate the repository you are collaborating with. Click main to switch to the member branch (Figure 1). From there, you can initiate the pull request process to merge your changes into the main/origin branch.\n\n\n\n\n\n\nFigure 1: Switching branches in a GitHub repository.\n\n\n\nOnce on the selected branch NEmp, as shown in Figure 2, click -A- Contribute, then Open pull request -B-. A window pops up where a title and description for the request can be provided. After submitting the request, the repository owner can check and accept the collaborator’s work.\n\n\n\n\n\n\nFigure 2: Open a pull request for a GitHub repository branch.",
+    "text": "This process starts by:\n\nAs shown in Figure 1, -A- Click Code to display a window containing options for cloning the repository. -B- Copy the HTTPS link provided. The subsequent step involves adding the new repository to your local machine.\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 4. There, -A- insert the copied HTTPS link, -B- name the project, and -C- select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\nAfter clicking the Create Project (Figure 4), a window pops up (Figure 3) requesting the -A- GitHub username and -B- password. Keep in mind that instead of using a password, you’ll need to provide a personal Token.\n\n\n\n\n\n\nFigure 3: Git credential windows to clone the GitHub repository.\n\n\n\nFigure 4 showcases the cloned local repository. Note that this process generates a local .Rproj file -A-.\n\n\n\n\n\n\nFigure 4: The “Files” tab in RStudio displays the repository files along with the essential .Rproj file (R project).",
     "crumbs": [
-      "Committing and Pushing – new Branch"
+      "Cloning GitHub Repositories to Your Local Machine"
     ]
   },
   {
@@ -177,26 +175,6 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
-    "objectID": "content/clon_git.html",
-    "href": "content/clon_git.html",
-    "title": "Cloning an existing repository from GitHub",
-    "section": "",
-    "text": "Cloning an existing repository is essential for collaboration among PhEpiGit members. To get started, members should go to the specific PhEpiGit repository and follow the instructions outlined in Section Cloning GitHub Repositories to Your Local Machine.\nBefore diving into work, collaborators must create their own branch. This can be done by navigating to the Git tab (Figure 1 Panel 1. A) and clicking on New Branch (Figure 1 Panel 1. B). A window will pop up where the employee’s UKHD name abbreviation (Kürzel)(e.g., New employee: NEmp) should be assigned to the branch name. Make sure to check Sync branch with remote to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (Figure 1).\n\n\n\n\n\n\nFigure 1: Git tab on RStudio showing the change of branch.\n\n\n\nNote: External collaborators can also be invited to work on your project However, you need to include their username/email using the Collaborators and Teams option in the GitHub repository settings.\nBranches facilitate parallel development and experimentation by providing isolated environments for new features or issue resolution, preventing interference with the main codebase until changes are finalized. Work done in a branch will not impact the main branch until it’s merged, which typically happens after review, testing, and approval.",
-    "crumbs": [
-      "Cloning an existing repository from GitHub"
-    ]
-  },
-  {
-    "objectID": "content/copy_repo.html",
-    "href": "content/copy_repo.html",
-    "title": "Cloning GitHub Repositories to Your Local Machine",
-    "section": "",
-    "text": "This process starts by:\n\nAs shown in Figure 1, -A- Click Code to display a window containing options for cloning the repository. -B- Copy the HTTPS link provided. The subsequent step involves adding the new repository to your local machine.\n\n\n\n\n\n\n\nFigure 1: Options to clone the repository.\n\n\n\n\n\nLog-in into your R Server and access the RStudio menu bar, choose File \\(\\rightarrow\\) New Project \\(\\rightarrow\\) Version Control \\(\\rightarrow\\) Git. This displays the window depicted in Figure 4. There, -A- insert the copied HTTPS link, -B- name the project, and -C- select a location for saving the local repository.\n\n\n\n\n\n\n\nFigure 2: Git window to clone the GitHub repository.\n\n\n\n\nAfter clicking the Create Project (Figure 4), a window pops up (Figure 3) requesting the -A- GitHub username and -B- password. Keep in mind that instead of using a password, you’ll need to provide a personal Token.\n\n\n\n\n\n\nFigure 3: Git credential windows to clone the GitHub repository.\n\n\n\nFigure 4 showcases the cloned local repository. Note that this process generates a local .Rproj file -A-.\n\n\n\n\n\n\nFigure 4: The “Files” tab in RStudio displays the repository files along with the essential .Rproj file (R project).",
-    "crumbs": [
-      "Cloning GitHub Repositories to Your Local Machine"
-    ]
-  },
-  {
     "objectID": "content/customizing.html",
     "href": "content/customizing.html",
     "title": "Customization",
@@ -218,21 +196,35 @@
     "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory."
   },
   {
-    "objectID": "content/initial.html",
-    "href": "content/initial.html",
-    "title": "Overall flowchart",
+    "objectID": "content/new_repo.html",
+    "href": "content/new_repo.html",
+    "title": "Creating Your First Repository on PhEpiGit",
     "section": "",
-    "text": "Overall document flowchart",
+    "text": "You can create a new repository using the command line, RStudio, or GitHub. However, we’ll focus on GitHub here because it helps us stick to our reproducible research SOP.\nOnce you’re part of the PhEpiGit, you have write permissions. That means you can clone, pull, and push to all our PhEpiGit repositories.\nTo set up a new GitHub repository:\n\nGo to the upper-right corner of the PhEpiGit and select +, then select New repository\n\n\n\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\nChoose the Pharmacoepidemiology-UKHD/project_template to initiate your new repository -A-. This selection will automatically assign the PhEpi as the owner. Next, assign a name to your repository -B- and select an appropriate visibility option -C-. You may also include a description if desired. Lastly, click Create repositry\n\n\n\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools like RStudio. This document underscores utilising RStudio as a central element for effective GitHub repository management.\n\n\n\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten\n\n\n\nThe next step is to clone your newly created GitHub repository to your local machine.",
     "crumbs": [
-      "Overall flowchart"
+      "Creating Your First Repository"
     ]
   },
   {
-    "objectID": "content/acknowledgements.html",
-    "href": "content/acknowledgements.html",
-    "title": "Acknowledgments",
+    "objectID": "content/code.html",
+    "href": "content/code.html",
+    "title": "Rendering with Code",
     "section": "",
-    "text": "This repo and GitHub Action was based on the tutorial by Openscapes quarto-website-tutorial by Julia Lowndes and Stefanie Butland."
+    "text": "You can have code (R, Python or Julia) in your qmd file. You will need to have these installed on your local computer, but presumably you do already if you are adding code to your qmd files.\nx &lt;- c(5, 15, 25, 35, 45, 55)\ny &lt;- c(5, 20, 14, 32, 22, 38)\nlm(x ~ y)\n\n\nCall:\nlm(formula = x ~ y)\n\nCoefficients:\n(Intercept)            y  \n      1.056        1.326"
+  },
+  {
+    "objectID": "content/code.html#modify-the-github-action",
+    "href": "content/code.html#modify-the-github-action",
+    "title": "Rendering with Code",
+    "section": "Modify the GitHub Action",
+    "text": "Modify the GitHub Action\nYou will need to change the GitHub Action in .github/workflows to install these and any needed packages in order for GitHub to be able to render your webpage. The GitHub Action install R since I used that in code.qmd. If you use Python or Julia instead, then you will need to update the GitHub Action to install those.\nIf getting the GitHub Action to work is too much hassle (and that definitely happens), you can alway render locally and publish to the gh-pages branch. If you do this, make sure to delete or rename the GitHub Action to something like\nrender-and-publish.old_yml\nso GitHub does not keep trying to run it. Nothing bad will happen if you don’t do this, but if you are not using the action (because it keeps failing), then you don’t need GitHub to run it."
+  },
+  {
+    "objectID": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "href": "content/code.html#render-locally-and-publish-to-gh-pages-branch",
+    "title": "Rendering with Code",
+    "section": "Render locally and publish to gh-pages branch",
+    "text": "Render locally and publish to gh-pages branch\nTo render locally and push up to the gh-pages branch, open a terminal window and then cd to the directory with the Quarto project. Type this in the terminal:\nquarto render gh-pages"
   },
   {
     "objectID": "content/add-content.html",
@@ -256,33 +248,13 @@
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
-    "objectID": "content/project_template.html",
-    "href": "content/project_template.html",
-    "title": "Porject template",
+    "objectID": "content/clon_git.html",
+    "href": "content/clon_git.html",
+    "title": "Cloning an existing repository from GitHub",
     "section": "",
-    "text": "PhEpiGit provides a project_template repository that should be used each time a member creates a new repository. This template includes all the folders specified in PhEpi-1-05_Reproduzierbares Arbeiten.\nImportant Information:\n\n.gitignore file: This specifies which files and folders will be ignored in the pushing process to the remote repository (GitHub). We have already included there the data folder which may contain sensitive information (e.g. patient data). Please make sure to save all data in that folder, otherwise include the name of the data file in the .gitignore file. More information can be found here.",
+    "text": "Cloning an existing repository is essential for collaboration among PhEpiGit members. To get started, members should go to the specific PhEpiGit repository and follow the instructions outlined in Section Cloning GitHub Repositories to Your Local Machine.\nBefore diving into work, collaborators must create their own branch. This can be done by navigating to the Git tab (Figure 1 Panel 1. A) and clicking on New Branch (Figure 1 Panel 1. B). A window will pop up where the employee’s UKHD name abbreviation (Kürzel)(e.g., New employee: NEmp) should be assigned to the branch name. Make sure to check Sync branch with remote to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (Figure 1).\n\n\n\n\n\n\nFigure 1: Git tab on RStudio showing the change of branch.\n\n\n\nNote: External collaborators can also be invited to work on your project However, you need to include their username/email using the Collaborators and Teams option in the GitHub repository settings.\nBranches facilitate parallel development and experimentation by providing isolated environments for new features or issue resolution, preventing interference with the main codebase until changes are finalized. Work done in a branch will not impact the main branch until it’s merged, which typically happens after review, testing, and approval.",
     "crumbs": [
-      "Project template"
-    ]
-  },
-  {
-    "objectID": "content/acceptpull.html",
-    "href": "content/acceptpull.html",
-    "title": "Checking and accepting a pull request",
-    "section": "",
-    "text": "After a collaborator has initiated a merge request, the repository owner generally reviews and accepts pull requests.\nTo accept a submitted pull request, follow these steps (see Figure 1):\n\nGo to the Pull requests tab in the GitHub repository -A-. Here, you’ll find a list of requests where you can take various actions.\nAccess a specific request by clicking on the pull request name -B-.\n\nThis allows you to thoroughly review the proposed changes and decide whether to accept, request modifications, or close the request.\n\n\n\n\n\n\nFigure 1: Checking a pull request on GitHub.\n\n\n\nFigure 2 displays the content of a pull request, providing information on the commit -A- and the request description -B-. Using Add a comment section -C-, both the repository owner and contributor can exchange messages for clarifications before proceeding to merge -D-.\nAfter the pull request has been accepted and merged, its status will transition from Open to Merged. Additionally, if the branch is no longer needed, it can be safely deleted.\n\n\n\n\n\n\nFigure 2: Description of an opened pulling request.",
-    "crumbs": [
-      "Checking and accepting a pull request"
-    ]
-  },
-  {
-    "objectID": "content/new_repo.html",
-    "href": "content/new_repo.html",
-    "title": "Creating Your First Repository on PhEpiGit",
-    "section": "",
-    "text": "You can create a new repository using the command line, RStudio, or GitHub. However, we’ll focus on GitHub here because it helps us stick to our reproducible research SOP.\nOnce you’re part of the PhEpiGit, you have write permissions. That means you can clone, pull, and push to all our PhEpiGit repositories.\nTo set up a new GitHub repository:\n\nGo to the upper-right corner of the PhEpiGit and select +, then select New repository\n\n\n\n\n\n\n\nFigure 1: Create a new repository\n\n\n\n\n\n\nChoose the Pharmacoepidemiology-UKHD/project_template to initiate your new repository -A-. This selection will automatically assign the PhEpi as the owner. Next, assign a name to your repository -B- and select an appropriate visibility option -C-. You may also include a description if desired. Lastly, click Create repositry\n\n\n\n\n\n\n\nFigure 2: Create a new repository window\n\n\n\n\nFigure 3 shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools like RStudio. This document underscores utilising RStudio as a central element for effective GitHub repository management.\n\n\n\n\n\n\nFigure 3: New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten\n\n\n\nThe next step is to clone your newly created GitHub repository to your local machine.",
-    "crumbs": [
-      "Creating Your First Repository"
+      "Cloning an existing repository from GitHub"
     ]
   }
 ]
