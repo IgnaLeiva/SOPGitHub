@@ -1,0 +1,22 @@
+---
+title: "Joining the PhEpiGit Community"
+---
+
+@fig-flow provides a detailed overview of the journey from setting up [Git](https://git-scm.com) to becoming a member of PhEpiGit. The process starts by configuring Git on your local machine or R server, ensuring you use your UKHD email as the user email. If you have not created a GitHub account yet, [now is the time](https://github.com)! Simply set one up and make sure to include your UKHD email in the account setting to match Git's user email.
+
+Once that's sorted, email the PhEpiGit owner, kindly requesting an invitation. Remember to include your GitHub username. Upon receiving your email, the owner will promptly send an invitation granting membership to the PhEpiGit
+
+
+
+![Workflow diagram depicting the process from configuring Git to becoming a member of PhEpiGit.](images/flowgit.svg){#fig-flow .absolute top=160 left=380 width="700"}
+
+
+ (*) Configuration on the local machine can be done by using the following code in a terminal (e.g., RStudio terminal)
+
+```{r eval=FALSE}
+# global configuration of name and email address
+git config --global user.name "First Last"
+git config --global user.email "name.surname@med.uni-heidelberg.de"
+
+```
+

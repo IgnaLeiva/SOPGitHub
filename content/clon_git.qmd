@@ -1,0 +1,16 @@
+---
+title: "Cloning an existing repository from GitHub"
+---
+
+Cloning an existing repository is essential for collaboration among PhEpiGit members. To get started, members should go to the specific PhEpiGit repository and follow the instructions outlined in Section [Cloning GitHub Repositories to Your Local Machine](copy_repo.qmd).
+
+Before diving into work, collaborators must create their own branch. This can be done by navigating to the Git tab (@fig-changebranch Panel 1. A) and clicking on **New Branch**  (@fig-changebranch Panel 1. B).
+A window will pop up where the employee's UKHD name abbreviation (Kürzel)(e.g., New employee: NEmp) should be assigned to the branch name. Make sure to check  **Sync branch with remote** to create the branch effectively. This action automatically switches the branch from main/origin to NEmp (@fig-changebranch).
+
+![Git tab on RStudio showing the change of branch.](images/changebranch.svg){#fig-changebranch .absolute top=160 left=380 width="600"}
+
+**Note**: _External collaborators can also be invited to work on your project However, you need to include their username/email using the **Collaborators and Teams** option in the GitHub repository settings._
+
+[Branches]{style="color: #2E6B96; font-weight: bold;"} facilitate parallel development and experimentation by providing isolated environments for new features or issue resolution, preventing interference with the main codebase until changes are finalized. Work done in a branch will not impact the main branch until it's merged, which typically happens after review, testing, and approval.
+
+

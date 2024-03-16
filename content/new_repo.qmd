@@ -1,0 +1,61 @@
+---
+title: "Creating Your First Repository on PhEpiGit"
+---
+
+You can create a new repository using the command line, RStudio, or GitHub. However, we'll focus on GitHub here because it helps us stick to our reproducible research SOP.
+
+Once you're part of the PhEpiGit, you have write permissions. That means you can clone, pull, and push to all our PhEpiGit repositories.
+
+[To set up a new GitHub repository:]{style="color: #2E6B96; font-weight: bold;"}
+
+1. Go to the upper-right corner of the PhEpiGit and select +, then select **New repository**
+
+![Create a new repository](images/newrepo.svg){#fig-newrepo .absolute top=160 left=380 width="600"}
+
+<!-- this is the rectangle 
+
+:::{style="position: absolute; left: 490px; top: 395px; height: 35px; width: 245px; border:2px solid #004a6f; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+:::
+
+-->
+
+<!-- 
+
+[[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}
+
+-->
+
+
+
+
+2. Choose the [**Pharmacoepidemiology-UKHD/project_template** ](project_template.qmd) to initiate your new repository [[-]{style="color: #143D59"}A[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. This selection will automatically assign the PhEpi as the owner. Next, assign a name to your repository [[-]{style="color: #143D59"}B[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"} and select an appropriate visibility option [[-]{style="color: #143D59"}C[-]{style="color: #143D59"}]{style="color: white; font-weight: bold; background-color: #143D59; border-radius: 50%;"}. You may also include a description if desired. Lastly, click **Create repositry**
+
+
+
+
+
+![Create a new repository window](images/newrepo2.svg){#fig-newrepo2 .absolute top=160 left=380 width="600"}
+
+<!-- this is the circle 
+
+:::{style="position: absolute; left: 365px; top: 945px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircle">A</div>
+:::
+
+
+:::{style="position: absolute; left: 365px; top: 1190px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircle">B</div>
+:::
+
+
+:::{style="position: absolute; left: 365px; top: 1280px; height: 35px; width: 35px; border:0px solid #004aad; padding: 0px; padding-left: 0px; box-shadow: 0px 0px 0px 0px #85929e; border-radius: 5px;"}
+<div class="numberCircle">C</div>
+:::
+
+-->
+
+@fig-newrepo3  shows a walkthrough of how a new repository takes shape. While GitHub enables repository management tasks, complete control can be achieved using a command line text editor or tools like RStudio. This document underscores utilising RStudio as a central element for effective GitHub repository management.
+
+![New repository content based on PhEpi-1-05_Reproduzierbares Arbeiten](images/newrepo3.png){#fig-newrepo3 .absolute top=160 left=380 width="500"}
+
+The next step is to **clone** your newly created GitHub repository to your local machine.
