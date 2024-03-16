@@ -3,11 +3,10 @@ project:
 
 website: 
   page-navigation: true
-  title: "PhEpiGit" 
+  title: "Synthea" 
   site-url: "https://www.klinikum.uni-heidelberg.de/en/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/dept-of-clinical-pharmacology-and-pharmacoepidemiology" 
   repo-url: "https://pharmacoepidemiology-ukhd.github.io/SOPGitHub"
-  #repo-actions: [edit, source, issue]
-  favicon: images/favicon.ico
+
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -16,7 +15,7 @@ website:
   sidebar:
     background: "white"
     #logo: logo.svg
-    logo: logo.png
+   # logo: logo.png
     pinned: true
     align: center
     tools: 
@@ -32,28 +31,12 @@ website:
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home
-      - href: content/initial.qmd
-        text: Overall flowchart
-      - href: content/become_part.qmd
-        text: Joining the PhEpiGit
-      - href: content/new_repo.qmd
-        text: Creating Your First Repository
-      - href: content/copy_repo.qmd
-        text: Cloning GitHub Repositories to Your Local Machine
-      - href: content/commit_push_main.qmd
-        text: Committing and Pushing - origin/main Branch
-      - href: content/clon_git.qmd
-        text: Cloning an existing repository from GitHub
-      - href: content/newbranchcommit.qmd
-        text: Committing and Pushing – new Branch
-      - href: content/acceptpull.qmd
-        text: Checking and accepting a pull request
-      - href: content/definitions.qmd
-        text: Terms, definitions and abbreviation
-      - href: content/project_template.qmd
-        text: Project template
-
+        text: Aim
+      - href: content/appendicitis.qmd
+        text: Appendicitis case
+      - href: content/breast_cancer.qmd
+        text: Breast Cancer tries
+      
 format:
   html:
     theme:
@@ -65,7 +48,6 @@ format:
 
 
 filters:
-  - include-files.lua
   - quarto
 
   

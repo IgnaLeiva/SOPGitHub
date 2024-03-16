@@ -4,6 +4,9 @@
 .Ruserdata
 #*.Rproj
 
+data
+synthea
+
 .DS_Store
 /.quarto/
 /_site/

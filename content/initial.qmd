@@ -1,6 +1,0 @@
----
-title: "Overall flowchart"
----
-
-
-![Overall document flowchart](images/flow.svg)
